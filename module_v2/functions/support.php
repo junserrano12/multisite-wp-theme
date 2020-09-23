@@ -84,9 +84,9 @@ if ( !function_exists( 'dwh_modify_html' ) )
 		$input = dwh_add_tracker( $input );
 		$input = dwh_define_constant_term( $input );
 		$input = dwh_remove_expired_element( $input );
-        $input = dwh_cdn_url( $input );
+        // $input = dwh_cdn_url( $input );
         // $input = dwh_switch_ibe_url( $input );
-        $input = dwh_is_ssl_url( $input );
+        // $input = dwh_is_ssl_url( $input );
         // $input = dwh_minify_html( $input );
 
 		return $input;
