@@ -1,6 +1,6 @@
 <?php
 
-add_action('init','trigger_this');
+// add_action('init','trigger_this');
 function trigger_this(){
 
 	global $DWH_Options;

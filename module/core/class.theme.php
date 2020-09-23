@@ -88,15 +88,17 @@ Class DWH_Theme
 	/* cache buster */
 	function cache_buster()
 	{
-		$site_global_cb_dir = get_template_directory().'/config/config.cache.buster.php';
-		if(file_exists($site_global_cb_dir)) $config_cb = include($site_global_cb_dir);
-		$cacheBust = isset($config_cb['cb']) ? '.'.$config_cb['cb'] : '';
+		return '';
+
+		// $site_global_cb_dir = get_template_directory().'/config/config.cache.buster.php';
+		// if(file_exists($site_global_cb_dir)) $config_cb = include($site_global_cb_dir);
+		// $cacheBust = isset($config_cb['cb']) ? '.'.$config_cb['cb'] : '';
 
 		/*DEBUG*/
 		// $date = new DateTime();
 		// $cacheBust = '.'.$date->getTimestamp();
 
-		return $cacheBust;
+		// return $cacheBust;
 	}
 
 	/* CDN */
@@ -261,7 +263,8 @@ Class DWH_Theme
 		$site_styles_global_config = array();
 		if(file_exists($site_styles_global_dir)) $site_styles_global_config = include($site_styles_global_dir);
 
-		$cacheBust = $this->cache_buster() != '' ? $this->cache_buster() : '.';
+		// $cacheBust = $this->cache_buster() != '' ? $this->cache_buster() : '.';
+		$cacheBust = $this->cache_buster();
 
 		if( !is_admin() ){
 
@@ -295,7 +298,8 @@ Class DWH_Theme
 		$config_cb = array();
 		if(file_exists($site_scripts_global_dir)) $config_scripts = include($site_scripts_global_dir);
 
-		$cacheBust = $this->cache_buster() != '' ? $this->cache_buster() : '.';
+		// $cacheBust = $this->cache_buster() != '' ? $this->cache_buster() : '.';
+		$cacheBust = $this->cache_buster();
 
 		if( !is_admin() ){
 			/* deregister wordpress jquery */
@@ -369,7 +373,8 @@ Class DWH_Theme
 		if( $site_info && $style_name )
 		{
 			$dir = DWH_SITE_THEME_DIR . 'site/' . $site_info->site_theme . '/css/' . $style_name . '.min.css';
-			$cacheBust = $this->cache_buster() != '' ? $this->cache_buster() : '.';
+			// $cacheBust = $this->cache_buster() != '' ? $this->cache_buster() : '.';
+			$cacheBust = $this->cache_buster();
 
 			if( file_exists( $dir ))
 			{
@@ -402,7 +407,8 @@ Class DWH_Theme
 			{
 				$dir_scan = scandir($dir);
 
-				$cacheBust = $this->cache_buster() != '' ? $this->cache_buster() : '.';
+				// $cacheBust = $this->cache_buster() != '' ? $this->cache_buster() : '.';
+				$cacheBust = $this->cache_buster();
 
 				foreach($dir_scan as $dir_val)
 				{
@@ -473,7 +479,8 @@ Class DWH_Theme
 			if( $page_theme && $style_name )
 			{
 				$dir = DWH_SITE_THEME_DIR . 'page/' . $page_theme . '/css/' . $style_name . '.css';
-				$cacheBust = $this->cache_buster() != '' ? $this->cache_buster() : '.';
+				// $cacheBust = $this->cache_buster() != '' ? $this->cache_buster() : '.';
+				$cacheBust = $this->cache_buster();
 
 				if( file_exists( $dir ) )
 				{
@@ -509,7 +516,8 @@ Class DWH_Theme
 			if(file_exists($dir))
 			{
 				$dir_scan = scandir($dir);
-				$cacheBust = $this->cache_buster() != '' ? $this->cache_buster() : '.';
+				// $cacheBust = $this->cache_buster() != '' ? $this->cache_buster() : '.';
+				$cacheBust = $this->cache_buster();
 
 				foreach($dir_scan as $dir_val)
 				{

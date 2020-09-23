@@ -1,8 +1,11 @@
 <?php
 global $DWH_Options;
 $ssl	        = ( defined('DWH_SSL') && DWH_SSL == true ) ? 'https://' : 'http://';
-$cdnurl	        = ( defined('DWH_CDN_URL') && DWH_CDN_URL != '' ) ? $ssl.DWH_CDN_URL : $ssl.'wpcdn.directwithhotels.com';
-$cloudFrontURL	= ( defined('DWH_CLOUDFRONT_URL') && DWH_CLOUDFRONT_URL != '' ) ? $ssl.DWH_CLOUDFRONT_URL : $ssl.'d3kjsgogkkmhg7.cloudfront.net';
+// $cdnurl	        = ( defined('DWH_CDN_URL') && DWH_CDN_URL != '' ) ? $ssl.DWH_CDN_URL : $ssl.'wpcdn.directwithhotels.com';
+// $cloudFrontURL	= ( defined('DWH_CLOUDFRONT_URL') && DWH_CLOUDFRONT_URL != '' ) ? $ssl.DWH_CLOUDFRONT_URL : $ssl.'d3kjsgogkkmhg7.cloudfront.net';
+
+$cdnurl	        = '';
+$cloudFrontURL	= '';
 
 $themename 		= esc_html( get_template() );
 $wpincludes 	= '/wp-includes/js/';
