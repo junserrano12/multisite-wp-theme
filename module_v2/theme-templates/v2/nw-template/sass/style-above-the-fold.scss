@@ -1,0 +1,96 @@
+@import "v2/base/_variables.scss";
+@import "v2/base/_mixins.scss";
+@import "v2/base/_reset.scss";
+@import "v2/base/_content.scss";
+@import "v2/base/_default.scss";
+
+#header {
+    padding: 10px 20px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+#banner-cta {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 10;
+}
+
+#main {
+    margin-bottom: 20px;
+
+    #main-container {
+
+        .entry-header {
+            margin-bottom: 10px;
+        }
+
+        .entry-content {
+            margin-bottom: 20px;
+        }
+
+        .entry-footer {
+
+        }
+
+    }
+}
+
+#footer {
+    padding: 10px 20px;
+
+    #footer-container {
+        text-align: center;
+    }
+}
+
+#main-banner-container {
+    overflow: hidden;
+}
+
+#cta-container {
+    width: 300px;
+    position: absolute;
+    bottom: 15%;
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    z-index: 20;
+    left: -webkit-calc( -webkit-calc( 100% - 1140px ) / 2 );
+    left: -moz-calc( -moz-calc( 100% - 1140px ) / 2 );
+    left: calc( calc( 100% - 1140px ) / 2 );
+    .control-wrapper {
+        &.cta-calendar-wrapper {
+            text-align: left;
+        }
+    }
+}
+
+#google-translate-container {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 8px;
+}
+
+#main-menu-container {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    #main-menu {
+        .menu {
+            li {
+                display: inline-block;
+                float: left;
+                padding: 0 10px;
+            }
+        }
+    }
+}

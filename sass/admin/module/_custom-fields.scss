@@ -1,0 +1,42 @@
+.box-container {
+    
+    &.custom-fields-box-container {
+        .container-header {
+            margin: 0 0 15px;
+
+            .title {
+                font-size: 14px;
+                margin: 0px;
+                line-height: 1;
+                font-weight: bold;
+            }
+
+            .description {
+                font-style: 12px;
+            }
+        }
+
+        .container-content {
+            .container-content-item {
+                position: relative;
+                display: block;
+                
+                .field-title-container {
+                    display: block;
+                    position: relative;
+                }
+
+                .field-content-container {
+                    .description {
+                        margin: 0 0 15px;
+                    }
+                }
+
+                .add-item {
+                    margin: 15px 0;
+                }
+            }
+        }
+   
+    }
+}

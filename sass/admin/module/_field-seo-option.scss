@@ -1,0 +1,45 @@
+#dwh-seo-option-container-0 {
+    
+    .container-content-item {
+        margin-bottom: 2em;
+
+        .field-content-container-seo-meta {
+
+            .row {
+                &:after {
+                    clear: both;
+                    display: block;
+                    content: '';
+                }
+
+                .column-left {
+                    width: 49%;
+                    float: left;
+                }
+
+                .column-right {
+                    width: 49%;
+                    float: right;
+                }
+
+            }
+
+            label {
+
+            }
+
+            input[type="text"] { 
+                margin-bottom: 1em;
+
+            }
+
+            textarea {
+                height: 90px;
+            }
+
+        }
+    }
+}
+
+
+

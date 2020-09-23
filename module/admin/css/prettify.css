@@ -1,0 +1,59 @@
+
+.com { color: #93a1a1; }
+.lit { color: #fff; }
+.pun, .opn, .clo { color: #e6db74; }
+.fun { color: #dc322f; }
+.str, .atv { color: #D14; }
+.kwd, .prettyprint .tag { color: #f92672; }
+.typ, .atn, .dec, .var { color: #fff; }
+.pln { color: #e6db74; }
+
+.prettyprint {
+  padding: 8px;
+  background-color: #272822;
+  border: 1px solid #ccc;
+}
+.prettyprint.linenums {
+  -webkit-box-shadow: inset 40px 0 0 #f9f9f9, inset 41px 0 0 #ccc;
+     -moz-box-shadow: inset 40px 0 0 #f9f9f9, inset 41px 0 0 #ccc;
+          box-shadow: inset 40px 0 0 #f9f9f9, inset 41px 0 0 #ccc;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin: 0 0 0 33px; /* IE indents via margin-left */
+}
+ol.linenums li {
+  padding-left: 12px;
+  color: #bebec5;
+  line-height: 20px;
+  text-shadow: 0 1px 0 #fff;
+}
+
+pre.prettyprint {
+    display: block;
+    overflow: scroll;
+    width: 300px;
+    height: 100px;
+    max-height: 400px; 
+    padding: 5px;   
+    border: none !important;
+    font-weight: bold;
+}
+
+span .prettyprint
+{
+  width: 400px;
+  z-index: 2;
+  max-width: auto;
+  overflow-y: auto;
+}
+
+span.attribute
+{
+  color:#D14;
+  font-weight: bold;
+  font-style: italic;
+}
+
+

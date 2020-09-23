@@ -1,0 +1,1 @@
+<?php dwh_content_footer_hook(); ?>

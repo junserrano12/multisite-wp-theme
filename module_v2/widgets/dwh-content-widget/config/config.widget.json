@@ -1,0 +1,7 @@
+{
+    "id"            : "widget_content",
+	"name" 			: "Custom Content",
+	"description" 	: "Add Content",
+	"height"		: 200,
+	"width" 		: 650
+}

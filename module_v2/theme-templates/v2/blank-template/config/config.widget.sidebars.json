@@ -1,0 +1,27 @@
+[
+    {
+        "id"            : "sidebar-container-content",
+        "name"          : "Sidebar Content",
+        "description"   : "Sidebar Content"
+    },
+    {
+        "id"            : "sidebar-container-content-1",
+        "name"          : "Sidebar Content 1",
+        "description"   : "Sidebar Content 1"
+    },
+    {
+        "id"            : "sidebar-container-content-2",
+        "name"          : "Sidebar Content 2",
+        "description"   : "Sidebar Content 2"
+    },
+    {
+        "id"            : "sidebar-container-content-3",
+        "name"          : "Sidebar Content 3",
+        "description"   : "Sidebar Content 3"
+    },
+    {
+        "id"            : "sidebar-container-content-4",
+        "name"          : "Sidebar Content 4",
+        "description"   : "Sidebar Content 4"
+    }
+]

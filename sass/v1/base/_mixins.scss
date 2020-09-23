@@ -1,0 +1,200 @@
+@mixin breakpoint($point) {
+    @if $point == xs {
+        @media (max-width: 767.98px) { @content; }
+    }
+    @else if $point == sm {
+        @media (max-width: 991.98px) { @content; }
+    }
+    @else if $point == md {
+        @media (max-width:1199.98px) { @content; }
+    }
+    @else if $point == lg {
+        @media (min-width:1920px) { @content; }
+    }
+}
+
+/* BOOTSTRAP 4 Breakpoint */
+@mixin media-breakpoint-down($point) {
+    @if $point == xs {
+        // Extra small devices (portrait phones, less than 576px)
+        @media (max-width: 575.98px) { @content; }
+    }
+    @else if $point == sm {
+        // Small devices (landscape phones, less than 768px)
+        @media (max-width: 767.98px) { @content; }
+    }
+    @else if $point == md {
+        // Medium devices (tablets, less than 992px)
+        @media (max-width: 991.98px) { @content; }
+    }
+    @else if $point == lg {
+        // Large devices (desktops, less than 1200px)
+        @media (max-width: 1199.98px) { @content; }
+    }
+}
+
+@mixin media-breakpoint-up($point) {
+    @if $point == sm {
+        // Small devices (landscape phones, 576px and up)
+        @media (min-width: 576px) { @content; }
+    }
+    @else if $point == md {
+        // Medium devices (tablets, 768px and up)
+        @media (min-width: 768px) { @content; }
+    }
+    @else if $point == lg {
+        // Large devices (desktops, 992px and up)
+        @media (min-width: 992px) { @content; }
+    }
+    @else if $point == xl {
+        // Extra large devices (large desktops, 1200px and up)
+        @media (min-width: 1200px) { @content; }
+    }
+}
+
+@mixin media-breakpoint-only($point) {
+    @if $point == xs {
+        // Extra small devices (portrait phones, less than 576px)
+        @media (max-width: 575.98px) { @content; }
+    }
+    @else if $point == sm {
+        // Small devices (landscape phones, 576px and up)
+        @media (min-width: 576px) and (max-width: 767.98px) { @content; }
+    }
+    @else if $point == md {
+        // Medium devices (tablets, 768px and up)
+        @media (min-width: 768px) and (max-width: 991.98px) { @content; }
+    }
+    @else if $point == lg {
+        // Large devices (desktops, 992px and up)
+        @media (min-width: 992px) and (max-width: 1199.98px) { @content; }
+    }
+    @else if $point == xl {
+        // Extra large devices (large desktops, 1200px and up)
+        @media (min-width: 1200px) { @content; }
+    }
+
+}
+
+/* LEGACY IE */
+$default-legacy-ie: 7 8 9 !default;
+@mixin legacy-ie($versions: $default-legacy-ie) {
+    $sel: ();
+    @each $v in $versions {
+        $sel: append($sel, unquote('.ie#{$v} &'), comma);
+    }
+
+    #{$sel} {
+        @content;
+    }
+}
+
+@mixin gradient($grfrom: #ffe042, $grto: #ff931f) {
+  background: $grfrom;
+  background: -moz-linear-gradient(top, $grfrom 1%, $grto 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, $grfrom), color-stop(100%, $grto));
+  background: -webkit-linear-gradient(top, $grfrom 1%, $grto 100%);
+  background: -o-linear-gradient(top, $grfrom 1%, $grto 100%);
+  background: -ms-linear-gradient(top, $grfrom 1%, $grto 100%);
+  background: linear-gradient(to bottom, $grfrom 1%, $grto 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$grfrom', endColorstr='$grto',GradientType=0 );
+
+  @include legacy-ie {
+    filter: none;
+  }
+}
+
+@mixin box-shadow( $parameter: 0 0 0 0 transparent ) {
+    box-shadow: $parameter;
+    -webkit-box-shadow: $parameter;
+    -moz-box-shadow: $parameter;
+}
+
+@mixin box-shadow-inset( $parameter: 0 0 0 0 transparent, $inset: 0 0 0 0 transparent ) {
+    box-shadow: $parameter, inset $inset;
+    -webkit-box-shadow: $parameter, inset $inset;
+    -moz-box-shadow: $parameter, inset $inset;
+}
+
+@mixin transition( $parameter ) {
+    transition: $parameter;
+    -webkit-transition: $parameter;
+    -moz-transition: $parameter;
+}
+
+@mixin appearance( $parameter: none ) {
+    appearance: $parameter;
+    -webkit-appearance: $parameter;
+    -moz-appearance: $parameter;
+}
+
+@mixin border-radius($radius: 5px) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+}
+
+@mixin menuicon($lineheight: 4px, $color: #fff) {
+    .line {
+        position:absolute;
+        height: $lineheight;
+        width: 80%;
+        left: 10%;
+        top: $lineheight * 3;
+        background-color: $color;
+
+        &:before, &:after {
+            content:"";
+            position: absolute;
+            display: block;
+            left: 0;
+            width: 100%;
+            height: $lineheight;
+            background-color: $color;
+            -webkit-transition-duration: 0.3s, 0.3s;
+                    transition-duration: 0.3s, 0.3s;
+            -webkit-transition-delay: 0.3s, 0s;
+                    transition-delay: 0.3s, 0s;
+        }
+
+        &:before {
+            top: -8px;
+            -webkit-transition-property: top, -webkit-transform;
+                    transition-property: top, transform;
+
+        }
+
+        &:after {
+            bottom: -8px;
+            -webkit-transition-property: bottom, -webkit-transform;
+                    transition-property: bottom, transform;
+        }
+    }
+
+    &.cross {
+        .line {
+            background: none;
+        }
+
+        .line:before  {
+            top: 0;
+            -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                    transform: rotate(45deg);
+        }
+
+        .line:after  {
+            bottom: 0;
+            -webkit-transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
+        }
+
+        .line:before, .line:after  {
+            position: absolute;
+            -webkit-transition-delay: 0s, 0.3s;
+                -ms-transition-delay: 0s, 0.3s;
+                    transition-delay: 0s, 0.3s;
+        }
+    }
+}

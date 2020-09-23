@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'playlistscript';
+    src: url('playlistscript-webfont.woff2') format('woff2'),
+         url('playlistscript-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* @font-face {
+    font-family: "playlistscript";
+    font-style: normal;
+    src: url("playlistscript-webfont.eot?#iefix") format("embedded-opentype"), 
+    	 url("playlistscript-webfont.woff") format("woff"), 
+    	 url("playlistscript-webfont.ttf") format("truetype"), 
+    	 url("playlistscript-webfont.svg#webfontregular") format("svg");
+} */

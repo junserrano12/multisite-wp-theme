@@ -1,0 +1,46 @@
+[
+	{ 
+		"id" 			: "WP_Widget_Pages",
+		"unregister" 	: true
+	},
+	{ 
+		"id" 			: "WP_Widget_Calendar", 
+		"unregister" 	: true
+	},
+	{ 
+		"id" 			: "WP_Widget_Archives", 
+		"unregister" 	: true
+	},
+	{ 
+		"id" 			: "WP_Widget_Links", 
+		"unregister" 	: true
+	},
+	{ 
+		"id" 			: "WP_Widget_Meta", 
+		"unregister" 	: true
+	},
+	{ 
+		"id" 			: "WP_Widget_Text", 
+		"unregister" 	: false
+	},
+	{ 
+		"id" 			: "WP_Widget_Categories", 
+		"unregister" 	: true
+	},
+	{ 
+		"id" 			: "WP_Widget_Recent_Posts", 
+		"unregister" 	: true
+	},
+	{ 
+		"id" 			: "WP_Widget_Recent_Comments", 
+		"unregister" 	: true
+	},
+	{ 
+		"id" 			: "WP_Widget_RSS", 
+		"unregister" 	: true
+	},
+	{ 
+		"id"			: "WP_Widget_Tag_Cloud", 
+		"unregister" 	: true
+	}
+]

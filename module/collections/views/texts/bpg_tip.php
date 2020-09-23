@@ -1,0 +1,1 @@
+$hotelname promises its customers that by booking directly, you are getting the best deal online. If you have a confirmed direct online booking with $hotelname and find a cheaper price for the same offer within 24 hours on another website, we will match that price.

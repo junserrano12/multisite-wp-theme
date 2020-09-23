@@ -1,0 +1,8 @@
+[
+    {
+        "post_types"    : ["collection"],
+        "singular"      : "Group",
+        "plural"        : "Groups",
+        "hierarchical"  : true
+    }
+]

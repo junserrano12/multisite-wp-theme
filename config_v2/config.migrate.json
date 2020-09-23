@@ -1,0 +1,380 @@
+{
+    "onetheme_hotel_options"        : {
+                                        "type"          : {
+                                                            "repeater"      : false,
+                                                            "sub_fields"    : false,
+                                                            "field_id"      : "corpsite_flag",
+                                                            "field_option"  : "dwh_sites"
+                                                          },
+                                        "hotel-group"   : {
+                                                            "repeater"      : true,
+                                                            "field_option"  : "dwh_hotels",
+                                                            "sub_fields"    : {
+                                                                                    "hotel_id"          : {
+                                                                                                            "field_id"    :"hotel_id",
+                                                                                                            "field_option":"dwh_hotels"
+                                                                                                          },
+                                                                                    "hotel_name"        : {
+                                                                                                            "field_id"    :"hotel_name",
+                                                                                                            "field_option":"dwh_hotels"
+                                                                                                          },
+                                                                                    "hotel_language"    : {
+                                                                                                            "field_id"    :"cta_language",
+                                                                                                            "field_option":"dwh_cta_language"
+                                                                                                          },
+                                                                                    "hotel_location"    : {
+                                                                                                            "field_id"    :"hotel_location",
+                                                                                                            "field_option":"dwh_hotels"
+                                                                                                          },
+                                                                                    "hotel_subdomain"   : {
+                                                                                                            "field_id"    :"ibe_desktop_url",
+                                                                                                            "field_option":"dwh_ibe_url"
+                                                                                                          }
+                                                                              }
+                                                          },
+                                        "hotel-single"  : {
+                                                            "repeater"      : false,
+                                                            "field_option"  : "dwh_hotels",
+                                                            "sub_fields"    : {
+                                                                                "hotel_id"          : {
+                                                                                                        "field_id"     : "hotel_id",
+                                                                                                        "field_option" : "dwh_hotels"
+                                                                                                      },
+                                                                                "hotel_name"        : {
+                                                                                                        "field_id"     : "hotel_name",
+                                                                                                        "field_option" : "dwh_hotels"
+                                                                                                      },
+                                                                                "hotel_language"    : {
+                                                                                                        "field_id"     : "cta_language",
+                                                                                                        "field_option" : "dwh_cta_language"
+                                                                                                      },
+                                                                                "hotel_location"    : {
+                                                                                                        "field_id"     : "hotel_location",
+                                                                                                        "field_option" : "dwh_hotels"
+                                                                                                      },
+                                                                                "hotel_subdomain"   : {
+                                                                                                        "field_id"     : "ibe_desktop_url",
+                                                                                                        "field_option" : "dwh_ibe_url"
+                                                                                                      }
+                                                                              }
+                                                          },
+                                        "address"       : {
+                                                            "repeater"      :false,
+                                                            "field_option"  :"dwh_hotel_address",
+                                                            "sub_fields"    : {
+                                                                                "street1"   : {
+                                                                                                "field_id"      : "street_1",
+                                                                                                "field_option"  : "dwh_hotel_address"
+                                                                                              },
+                                                                                "street2"   : {
+                                                                                                "field_id"      : "street_2",
+                                                                                                "field_option"  : "dwh_hotel_address"
+                                                                                              },
+                                                                                "city"      : {
+                                                                                                "field_id"      : "city_town",
+                                                                                                "field_option"  : "dwh_hotel_address"
+                                                                                              },
+                                                                                "state"     : {
+                                                                                                "field_id"      : "state_region",
+                                                                                                "field_option"  : "dwh_hotel_address"
+                                                                                              },
+                                                                                "country"   : {
+                                                                                                "field_id"      : "country",
+                                                                                                "field_option"  : "dwh_hotel_address"
+                                                                                              },
+                                                                                "zipcode"   : {
+                                                                                                "field_id"      : "zip_code",
+                                                                                                "field_option"  : "dwh_hotel_address"
+                                                                                              }
+                                                                              }
+                                                          }
+                                      },
+    "onetheme_site_options"         : {
+                                        "sitemaps-controller"           : {
+                                                                            "repeater"      : false,
+                                                                            "sub_fields"    : false,
+                                                                            "field_option"  : "dwh_sitemap",
+                                                                            "field_id"      : "sitemap_xml",
+                                                                            "callback"      : "dwh_convert_to_bool"
+                                                                          },
+                                        "sitemaps"                      : {
+                                                                            "repeater"      : false,
+                                                                            "sub_fields"    : false,
+                                                                            "field_option"  : "dwh_sitemap",
+                                                                            "field_id"      : "sitemap_xml",
+                                                                            "callback"      : "dwh_remove_extra_line"
+                                                                          },
+                                        "robots"                        : {
+                                                                            "repeater"      : false,
+                                                                            "sub_fields"    : false,
+                                                                            "field_option"  : "dwh_site_robots",
+                                                                            "field_id"      : "robots_txt"
+                                                                          },
+                                        "meta-title"                    : {
+                                                                            "repeater"      : false,
+                                                                            "sub_fields"    : false,
+                                                                            "field_option"  : "dwh_meta",
+                                                                            "field_id"      : null
+                                                                          },
+                                        "meta-keyword"                  : {
+                                                                            "repeater"      : false,
+                                                                            "sub_fields"    : false,
+                                                                            "field_option"  : "dwh_meta",
+                                                                            "field_id"      : null
+                                                                          },
+                                        "meta-description"              : {
+                                                                            "repeater"      : false,
+                                                                            "sub_fields"    : false,
+                                                                            "field_option"  : "dwh_meta",
+                                                                            "field_id"      : null
+                                                                          },
+                                        "code-snippet"                  : {
+                                                                            "repeater"      : true,
+                                                                            "field_option"  : "dwh_custom_scripts",
+                                                                            "sub_fields"    : {
+                                                                                                "title"     : {
+                                                                                                                "field_id"     : "cscript_name",
+                                                                                                                "field_option" : "dwh_custom_scripts"
+                                                                                                              },
+                                                                                                "location"  : {
+                                                                                                                "field_id"     : "cscript_location",
+                                                                                                                "field_option" : "dwh_custom_scripts"
+                                                                                                              },
+                                                                                                "content"   : {
+                                                                                                                "field_id"     : "custom_script",
+                                                                                                                "field_option" : "dwh_custom_scripts"
+                                                                                                              },
+                                                                                                "postids"   : {
+                                                                                                                "field_id"     : "cscript_display_to",
+                                                                                                                "field_option" : "dwh_custom_scripts"
+                                                                                                              }
+                                                                                              }
+                                                                          },
+                                        "google-map-api"                : {
+                                                                            "repeater"     : false,
+                                                                            "sub_fields"   : false,
+                                                                            "field_option" : "dwh_meta",
+                                                                            "field_id"     : null
+                                                                          },
+                                        "google-legacy-analytics"       : {
+                                                                            "repeater"     : false,
+                                                                            "sub_fields"   : false,
+                                                                            "field_option" : "dwh_api_google_analytics",
+                                                                            "field_id"     : "ga_code"
+                                                                          },
+                                        "google-legacy-analytics-2"     : {
+                                                                            "repeater"     : false,
+                                                                            "sub_fields"   : false,
+                                                                            "field_option" : "dwh_api_google_analytics",
+                                                                            "field_id"     : "ga_code_2"
+                                                                          },
+                                        "google-universal-analytics"    : {
+                                                                            "repeater"     : false,
+                                                                            "sub_fields"   : false,
+                                                                            "field_option" : "dwh_api_google_analytics",
+                                                                            "field_id"     : "ua_analytics_code1"
+                                                                          },
+                                        "google-universal-analytics-2"  : {
+                                                                            "repeater"     : false,
+                                                                            "sub_fields"   : false,
+                                                                            "field_option" : "dwh_api_google_analytics",
+                                                                            "field_id"     : "ua_analytics_code2"
+                                                                          },
+                                        "google-tag-manager-controller" : {
+                                                                            "repeater"     : false,
+                                                                            "sub_fields"   : false,
+                                                                            "field_option" : "dwh_api_google_analytics",
+                                                                            "field_id"     : "google_tag_manager_code",
+                                                                            "callback"     : "dwh_convert_to_bool"
+                                                                          },
+                                        "google-tag-manager"            : {
+                                                                            "repeater"     : false,
+                                                                            "sub_fields"   : false,
+                                                                            "field_option" : "dwh_api_google_analytics",
+                                                                            "field_id"     : "google_tag_manager_code"
+                                                                          },
+                                        "google-remarketing"            : {
+                                                                            "repeater"     : false,
+                                                                            "sub_fields"   : false,
+                                                                            "field_option" : "dwh_api_google_analytics",
+                                                                            "field_id"     : "ga_remarketing"
+                                                                          },
+                                        "google-webmaster-tool"         : {
+                                                                            "repeater"     : false,
+                                                                            "sub_fields"   : false,
+                                                                            "field_option" : "dwh_api_google_webmaster_tool",
+                                                                            "field_id"     : "site_verification_tag"
+                                                                          }
+                                      },
+    "onetheme_customizer_options"   : {
+                                        "logo"                  : {
+                                                                    "repeater"     : false,
+                                                                    "sub_fields"   : false,
+                                                                    "field_option" : "dwh_sites",
+                                                                    "field_id"     : "logo_id"
+                                                                  },
+                                        "favicon"               : {
+                                                                    "repeater"     : false,
+                                                                    "sub_fields"   : false,
+                                                                    "field_option" : "dwh_sites",
+                                                                    "field_id"     : "favicon_id"
+                                                                  },
+                                        "banner"                : {
+                                                                    "repeater"     : false,
+                                                                    "sub_fields"   : false,
+                                                                    "field_option" : "dwh_sites",
+                                                                    "field_id"     : "banner_id"
+                                                                  },
+                                        "theme-layout"          : {
+                                                                    "repeater"     : false,
+                                                                    "field_option" : "dwh_sites",
+                                                                    "sub_fields"   : {
+                                                                                        "theme_name"    : {
+                                                                                                            "field_id"     : "site_theme",
+                                                                                                            "field_option" : "dwh_sites"
+                                                                                                          },
+                                                                                        "header_layout" : {
+                                                                                                            "field_id"     : null,
+                                                                                                            "field_option" : "dwh_sites",
+                                                                                                            "callback"     : "dwh_get_value_from_file",
+                                                                                                            "parameter"    : {
+                                                                                                                                "filename" : "header",
+                                                                                                                                "type"     : "template",
+                                                                                                                                "ext"      : "tpl"
+                                                                                                                             }
+                                                                                                          },
+                                                                                        "footer_layout" : {
+                                                                                                            "field_id"     : null,
+                                                                                                            "field_option" : "dwh_sites",
+                                                                                                            "callback"     : "dwh_get_value_from_file",
+                                                                                                            "parameter"    : {
+                                                                                                                                "filename" : "footer",
+                                                                                                                                "type"     : "template",
+                                                                                                                                "ext"      : "tpl"
+                                                                                                                             }
+                                                                                                          }
+                                                                                     }
+                                                                  },
+                                        "above-the-fold-css"    : {
+                                                                    "repeater"     : false,
+                                                                    "sub_fields"   : false,
+                                                                    "field_option" : "dwh_sites",
+                                                                    "field_id"     : null,
+                                                                    "callback"     : "dwh_get_value_from_file",
+                                                                    "parameter"    : {
+                                                                                        "filename" : "style-above-the-fold",
+                                                                                        "type"     : "sass",
+                                                                                        "ext"      : "scss"
+                                                                                     }
+                                                                  },
+                                        "main-css"              : {
+                                                                    "repeater"     : false,
+                                                                    "sub_fields"   : false,
+                                                                    "field_option" : "dwh_sites",
+                                                                    "field_id"     : "site_css"
+                                                                  },
+                                        "media-query-css"       : {
+                                                                    "repeater"     : false,
+                                                                    "sub_fields"   : false,
+                                                                    "field_option" : "dwh_sites",
+                                                                    "field_id"     : "site_mediaquery"
+                                                                  },
+                                        "cta-layout"            : {
+                                                                    "repeater"     : false,
+                                                                    "sub_fields"   : false,
+                                                                    "field_option" : "dwh_cta",
+                                                                    "field_id"     : "cta_set"
+                                                                  },
+                                        "cta-bpg-inclusion"     : {
+                                                                    "repeater"     : false,
+                                                                    "sub_fields"   : false,
+                                                                    "field_option" : "dwh_cta",
+                                                                    "field_id"     : "bpg_inclusion"
+                                                                  },
+                                        "cta-bpg"               : {
+                                                                    "repeater"     : false,
+                                                                    "field_option" : "dwh_cta",
+                                                                    "sub_fields"   : {
+                                                                                        "bpg_terms" : {
+                                                                                                        "field_id"     : "terms_and_condition",
+                                                                                                        "field_option" : "dwh_cta"
+                                                                                                      },
+                                                                                        "bpg_tips"  : {
+                                                                                                        "field_id"     : "bpg_tip",
+                                                                                                        "field_option" : "dwh_cta"
+                                                                                                      },
+                                                                                        "bpg_title" : {
+                                                                                                        "field_id"     : "cta_title",
+                                                                                                        "field_option" : "dwh_cta"
+                                                                                                      }
+                                                                                     }
+                                                                  },
+                                        "cta-label"             : {
+                                                                    "repeater"      : false,
+                                                                    "field_option"  : "dwh_cta",
+                                                                    "sub_fields"    : {
+                                                                                        "cta_button"        : {
+                                                                                                                "field_id"     : "cta_label",
+                                                                                                                "field_option" : "dwh_cta"
+                                                                                                              },
+                                                                                        "cta_footer_link"   : {
+                                                                                                                "field_id"     : "cta_footer_link",
+                                                                                                                "field_option" : "dwh_cta"
+                                                                                                              },
+                                                                                        "cta_modify_cancel" : {
+                                                                                                                "field_id"     : "cta_modify_cancel_link",
+                                                                                                                "field_option" : "dwh_cta"
+                                                                                                              },
+                                                                                        "cta_promocode"     : {
+                                                                                                                "field_id"     : null,
+                                                                                                                "field_option" : "dwh_cta"
+                                                                                                              }
+                                                                                      }
+                                                                  },
+                                        "fonts"                 : {
+                                                                    "repeater"      : true,
+                                                                    "field_option"  : [
+                                                                                        "dwh_fonts_internal",
+                                                                                        "dwh_fonts_external"
+                                                                                      ],
+                                                                    "sub_fields"    : [
+                                                                                        {
+                                                                                            "type"          : {
+                                                                                                                "field_id"     : "internal_font_type",
+                                                                                                                "field_option" : "dwh_fonts_internal"
+                                                                                                              },
+                                                                                            "internal_name" : {
+                                                                                                                "field_id"     : "font_name",
+                                                                                                                "field_option" : "dwh_fonts_internal"
+                                                                                                              },
+                                                                                            "external_name" : {
+                                                                                                                "field_id"     : "name",
+                                                                                                                "field_option" : "dwh_fonts_internal"
+                                                                                                              },
+                                                                                            "external_tag"  : {
+                                                                                                                "field_id"     : "tag",
+                                                                                                                "field_option" : "dwh_fonts_internal"
+                                                                                                              }
+                                                                                        },
+                                                                                        {
+                                                                                            "type"          : {
+                                                                                                                "field_id"     : "external_font_type",
+                                                                                                                "field_option" : "dwh_fonts_external"
+                                                                                                              },
+                                                                                            "internal_name" : {
+                                                                                                                "field_id"     : "font_name",
+                                                                                                                "field_option" : "dwh_fonts_external"
+                                                                                                              },
+                                                                                            "external_name" : {
+                                                                                                                "field_id"     : "name",
+                                                                                                                "field_option" : "dwh_fonts_external"
+                                                                                                              },
+                                                                                            "external_tag"  : {
+                                                                                                                "field_id"     : "tag",
+                                                                                                                "field_option" : "dwh_fonts_external"
+                                                                                                              }
+                                                                                        }
+                                                                                      ]
+                                                                  }
+                                      }
+}

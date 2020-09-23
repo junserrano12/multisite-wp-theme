@@ -1,0 +1,23 @@
+[
+	{
+		"id" 			: "dwh-content-widget-container",
+		"fields" 		: [
+								{
+									"id"			: "dwh-content-widget-textarea",
+									"type" 			: "textarea",
+									"label"         : "Content",
+									"rows" 			: 10,
+									"value" 		: "",
+									"mediabutton"   : true
+							  	},
+								{
+									"id"			: "dwh-content-widget-display-page",
+									"type" 			: "checkbox",
+									"label" 		: "Display in Front Page Only",
+									"value" 		: 0
+							  	}
+						  ]
+	}
+]
+
+

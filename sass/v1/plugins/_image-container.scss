@@ -1,0 +1,9 @@
+/*IMAGE CONTAINER*/
+.image-container{display:block; position:relative; overflow:hidden; width:auto;}
+.image-container a, .image-container img{display:block; position:relative; width:100%; height:auto;}
+
+.image-container .featured{position:absolute; width:45%; background:rgba(255,255,255,0.8); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF,endColorstr=#CCFFFFFF)"; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF,endColorstr=#CCFFFFFF); zoom: 1; height:100%; text-align:right; top:0; right:0;}.ie9 .image-container .featured{filter:none;}
+.image-container .featured .featured-content{display:block; position:relative; width:auto; padding:6px;}
+.image-container .featured .sub-title{margin-bottom:1em; width:auto;}
+.image-container .featured .link{background:url(../images/next.png) no-repeat 0 0 transparent; display:block; position:absolute; bottom:2em; right:1em; width:30px; height:31px; text-decoration:none; text-indent:-9999px; }
+.image-container .featured:before, .image-container .featured:after{content:''; display:block; position:relative; clear:both;}

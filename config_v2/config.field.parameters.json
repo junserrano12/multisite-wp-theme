@@ -1,0 +1,23 @@
+[
+    {
+        "id"              : "",
+        "name"            : "",
+        "field_id"        : "",
+        "label"           : "",
+        "altlabel"        : "",
+        "class"           : "",
+        "description"     : "",
+        "default_value"   : "",
+        "value"           : "",
+        "rows"            : 5,
+        "inputclass"      : "",
+        "callback"        : "",
+        "type"            : "",
+        "repeater"        : false,
+        "accordion"       : false,
+        "mediabutton"     : false,
+        "itemlistclass"   : "",
+        "removeitem"      : false,
+        "attribute"       : ""
+    }
+]

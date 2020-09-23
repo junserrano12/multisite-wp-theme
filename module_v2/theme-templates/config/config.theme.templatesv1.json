@@ -1,0 +1,43 @@
+[
+    {
+        "id"            : "AW4.2.0-default",
+        "name"          : "AW4.2.0-default"
+    },
+    {
+        "id"            : "NW3.2.1-default",
+        "name"          : "NW3.2.1-default"
+
+    },
+    {
+        "id"            : "NW3.2.2-microtel",
+        "name"          : "NW3.2.2-microtel"
+    },
+    {
+        "id"            : "NW3.2.3-shotel",
+        "name"          : "NW3.2.3-shotel"
+    },
+    {
+        "id"            : "NW3.2.4-palace",
+        "name"          : "NW3.2.4-palace"
+    },
+    {
+        "id"            : "NW3.2.5-garden",
+        "name"          : "NW3.2.5-garden"
+    },
+    {
+        "id"            : "NW3.2.6-luxent",
+        "name"          : "NW3.2.6-luxent"
+    },
+    {
+        "id"            : "NW3.2.7-elan",
+        "name"          : "NW3.2.7-elan"
+    },
+    {
+        "id"            : "NW3.2.8-princesa",
+        "name"          : "NW3.2.8-princesa"
+    },
+    {
+        "id"            : "NW3.2.9-midas",
+        "name"          : "NW3.2.9-midas"
+    }
+]

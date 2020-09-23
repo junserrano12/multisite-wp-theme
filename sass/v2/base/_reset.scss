@@ -1,0 +1,357 @@
+/* reset */
+// html,
+// body,
+// div,
+// span,
+// object,
+// iframe,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// p,
+// blockquote,
+// pre,
+// a,
+// code,
+// del,
+// em,
+// img,
+// small,
+// strike,
+// dl,
+// dt,
+// dd,
+// ol,
+// ul,
+// li,
+// fieldset,
+// form,
+// label,
+// table,
+// caption,
+// tbody,
+// tfoot,
+// thead,
+// tr,
+// th,
+// td {
+//     margin: 0px;
+//     padding: 0px;
+//     border: 0px;
+//     outline: 0px;
+//     font-size: 100%;
+//     font-weight:normal;
+//     vertical-align: baseline;
+//     background: transparent;
+// }
+
+// * {
+//     margin: 0px;
+//     padding: 0px;
+//     border: 0px;
+//     outline: 0px;
+//     font-size: 100%;
+//     font-weight:normal;
+//     vertical-align: baseline;
+//     background: transparent;
+// }
+
+/* bootstrap/custom reset */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* normalize */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+}
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  display: block;
+  position: relative;
+  background: inherit;
+  border: none;
+  outline: 0;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  @include appearance( none );
+  @include border-radius(0);
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input[type="text"] {
+  border: 1px solid rgba( $black, 0.5 );
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* dwh base */
+body {
+  font-family: $primaryfont;
+  font-size: $base;
+  color: $black;
+  line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+h1, .entry-title {
+  font-size: $large;
+  color: $primarycolor;
+  margin: 0;
+
+  @include breakpoint(sm) {
+    font-size: $medium;
+  }
+}
+
+h2, .post-title {
+  font-size: $medium;
+  margin: 0;
+}
+
+h3, h4, h5, h6 {
+  font-size: $regular;
+  font-weight: normal;
+  margin: 0;
+}
+
+a {
+  color: $linkcolor;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+  }
+
+  &:hover {
+    color: darken( $linkcolor, 10% );
+  }
+
+}
+
+p {
+  margin-bottom: $spacing;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}

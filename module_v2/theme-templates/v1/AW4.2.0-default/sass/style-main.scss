@@ -1,0 +1,57 @@
+body{font-size:13px; color:#252525; font-family:sans-serif;}
+h1, h2, h3{ font-family:inherit; color:#333333; }
+h1 { font-size:1.846em; }
+h2 { font-size:1.538em; }
+h3 { font-size:1.231em; color:#fff;}
+a { color:#fff; } a:hover { color:#fff; }
+
+#wrapper{display:block; position:relative; width:100%; height:auto; margin:0 auto;}
+	.ie8 .content, .ie7 .content{width:940px;}
+	.content{position:relative; margin:0 auto; padding:10px; width:940px;}
+		.content:after{content:""; display:block; position:relative; clear:both;}
+
+	#header{display:block; position:relative;}
+		#header-container{padding:10px}
+	
+	#main{display:block; position:relative; width:auto;}
+		#main-container{padding:10px;}
+
+			#sidebar{color:#fff; float:left; width:310px; z-index:100; position:fixed; text-align:center; background:#111;}
+				#sidebar-container{padding:10px;}
+
+					#logo-container{display:block; position:relative; margin-bottom:1em;}
+						.logo{display:block; text-align:center;}
+
+					#cta-container{position:relative; text-align: center; padding:10px 0;}
+						.cta-container .cta-moc-container{width:auto;}
+
+			#primary{float:right; width:620px; z-index:50;}
+				#primary-header{position:relative; width:100%; height:auto; z-index:30;}
+					#main-menu-container{display:block; position:relative; z-index:50;}
+					#main-menu ul{position:relative; list-style:none; margin:0;}
+						#main-menu ul li{display:inline-block;}
+							#main-menu li a {display:block; padding:5px 10px; background:#999; color:#252525; font-size:1em; text-decoration:none;}
+							#main-menu li a:hover ,#main-menu li.current-menu-item a {background:#BA3F1D; color:#fff;}
+						
+						#main-menu .sub-menu{position:absolute; margin:0; padding:0;}		
+							#main-menu .sub-menu li{display:block; position:relative; text-align:left; list-style:none;}
+								#main-menu .sub-menu li a{padding:3px 6px;}
+												
+					#slider-container{display:block; position:relative; width:100%; overflow:hidden; margin-bottom:1em; z-index:20; }
+						.slider-thumb{ width:auto; padding-bottom:1em;}
+							.slider-image-caption{display:block; position:absolute; bottom:0; height:auto; width:100%; text-align:left; background:rgba(0,0,0,0.4); color:#999; padding:8px; color:#fff;}
+							.slider-image-caption p{margin-bottom:0;}
+						.carousel-thumb{margin-bottom:20px; width:auto; margin-bottom:1em;}
+							.carousel-thumb li{margin-right:5px;}
+
+				#primary-main{background:#fff; position:relative;  padding:20px; width:auto; z-index:20;}
+					.entry-header, .entry-content, .entry-footer{margin-bottom:1em;}
+
+				#primary-footer{position:relative; z-index:10;}
+			
+	#footer{background:#111; color:#fff; display:block; position:relative; text-align:center;}
+		#footer-container:after{display:block; position:relative; clear:both;}
+			#footer .copyright{float:right; width:620px;}			
+
+.button{font-family: helvetica, sans-serif; text-decoration: none; display: inline-block; position: relative; font-size: 14px; cursor: pointer; color: #000000 !important; padding: 15px 10px; line-height: 18px; text-align: center; vertical-align: middle; margin: 0; border: 1px solid #cccccc; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; font-weight: bold; box-shadow: 0px 1px 1px #333; -moz-box-shadow: 0px 1px 1px #333; -moz-box-shadow: 0px 1px 1px #333; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); background-color: #faa732; background-image: -moz-linear-gradient(top, #fbb450, #f89406); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406)); background-image: -webkit-linear-gradient(top, #fbb450, #f89406); background-image: -o-linear-gradient(top, #fbb450, #f89406); background-image: linear-gradient(to bottom, #fbb450, #f89406); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0); border-color: #f89406 #f89406 #ad6704; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);}
+.bpgcheck{background-position:0 top;}

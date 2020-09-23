@@ -1,0 +1,17 @@
+/* SOCIAL MEDIA */
+#social-media-container{float:right; text-align:right;}
+    #social-media{display:block; position:relative;}
+        .list-social-media{font-size:0;}
+            .list-social-media li{display:inline-block; position:relative; width:30px; height:30px; margin-left:5px;}
+                .list-social-media li a{background:url(../images/social-media.jpg) repeat 0 0 transparent; display:block; position:relative; width:30px; height:30px; cursor:pointer;}
+                .list-social-media li a.facebook-icon{background-position:0 0;}
+                .list-social-media li a.twitter-icon{background-position:-30px 0;}
+                .list-social-media li a.tripadvisor-icon{background-position:-60px 0;}
+                .list-social-media li a.googleplus-icon{background-position:0 -30px;}
+                .list-social-media li a.tumblr-icon{background-position:-30px -30px;}
+                .list-social-media li a.youtube-icon{background-position:-60px -30px;}
+                .list-social-media li a.foursquare-icon{background-position:0 -60px;}
+                .list-social-media li a.pinterest-icon{background-position:-30px -60px;}
+                .list-social-media li a.linkedin-icon{background-position:-60px -60px;}
+                .list-social-media li a.instagram-icon{background-position:0 -90px;}                
+                .list-social-media li a.flickr-icon{background-position:-30px -90px;}       

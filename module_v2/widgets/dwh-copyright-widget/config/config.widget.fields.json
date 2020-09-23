@@ -1,0 +1,16 @@
+[
+	{
+		"id" 			: "dwh-copyright-widget-container",
+		"fields" 		: [
+								{
+									"id"			: "site_copyright_text",
+									"type" 			: "textarea",
+									"rows" 			: 3,
+									"value" 		: "",
+									"mediabutton"   : false
+							  	}
+						  ]
+	}
+]
+
+

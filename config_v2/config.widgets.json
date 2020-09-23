@@ -1,0 +1,30 @@
+[
+    {
+        "id"            : "widget_content",
+        "name"          : "DWH Content",
+        "description"   : "Add Content",
+        "height"        : 200,
+        "width"         : 650
+    },
+    {
+        "id"            : "widget_cta",
+        "name"          : "Call to Action",
+        "description"   : "Add CTA",
+        "height"        : 200,
+        "width"         : 650
+    },
+    {
+        "id"            : "widget_logo",
+        "name"          : "Logo",
+        "description"   : "Add Logo",
+        "height"        : 200,
+        "width"         : 650
+    },
+    {
+        "id"            : "widget_menu",
+        "name"          : "Menu",
+        "description"   : "Add Menu",
+        "height"        : 200,
+        "width"         : 650
+    }
+]

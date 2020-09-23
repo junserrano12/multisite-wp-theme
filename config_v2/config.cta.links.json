@@ -1,0 +1,13 @@
+{
+    "base_url"              : "https://reservations.directwithhotels.com",
+    "mobile_base_url"       : "https://mobile.directwithhotels.com",
+    "base_url_dir"          : "/reservation/",
+    "mobile_base_url_dir"   : "/mobile/",
+    "default"               : "selectDates/",
+    "calendar"              : "showRooms/",
+    "moc"                   : "modifyCancelPage/",
+    "flexi"                 : "availCalendarFlexi/",
+    "promocode"             : "showRoomsPromo/",
+    "language"              : "en",
+    "param_1"               : "0/0/0/0/"
+}

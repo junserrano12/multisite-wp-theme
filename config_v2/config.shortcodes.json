@@ -1,0 +1,142 @@
+[
+    {
+        "id"            : "dwh-accordions-shortcode",
+        "function"      : "dwh_accordions_shortcode",
+        "name"          : "dwh_accordions"
+    },
+    {
+        "id"            : "dwh-accordion-shortcode",
+        "function"      : "dwh_accordion_shortcode",
+        "name"          : "dwh_accordion"
+    },
+    {
+        "id"            : "dwh-address-shortcode",
+        "function"      : "dwh_address_shortcode",
+        "name"          : "get_address"
+    },
+    {
+        "id"            : "dwh-call-function-shortcode",
+        "function"      : "dwh_call_function_shortcode",
+        "name"          : "dwh_call_function"
+    },
+    {
+        "id"            : "dwh-collection-shortcode",
+        "function"      : "dwh_collection_shortcode",
+        "name"          : "dwh_collection"
+    },
+    {
+        "id"            : "dwh-copyright-shortcode",
+        "function"      : "dwh_copyright_shortcode",
+        "name"          : "dwh_copyright"
+    },
+    {
+        "id"            : "dwh-cta-shortcode",
+        "function"      : "dwh_cta_shortcode",
+        "name"          : "dwh_cta"
+    },
+    {
+        "id"            : "dwh-custom-menu-shortcode",
+        "function"      : "dwh_custom_menu_shortcode",
+        "name"          : "dwh_custom_menu"
+    },
+    {
+        "id"            : "dwh-fblike-shortcode",
+        "function"      : "dwh_fblike_shortcode",
+        "name"          : "get_fblike"
+    },
+    {
+        "id"            : "dwh-fbshare-shortcode",
+        "function"      : "dwh_fbshare_shortcode",
+        "name"          : "get_fbshare"
+    },
+    {
+        "id"            : "dwh-gallery-accordion-shortcode",
+        "function"      : "dwh_gallery_accordion_shortcode",
+        "name"          : "gallery_accordion"
+    },
+    {
+        "id"            : "dwh-gallery-grid-shortcode",
+        "function"      : "dwh_gallery_grid_shortcode",
+        "name"          : "gallery_grid"
+    },
+    {
+        "id"            : "dwh-gallery-tab-shortcode",
+        "function"      : "dwh_gallery_tab_shortcode",
+        "name"          : "gallery_tab"
+    },
+    {
+        "id"            : "dwh-gallery-teaser-shortcode",
+        "function"      : "dwh_gallery_teaser_shortcode",
+        "name"          : "gallery_teaser"
+    },
+    {
+        "id"            : "dwh-get-custom-content-shortcode",
+        "function"      : "dwh_get_custom_content_shortcode",
+        "name"          : "get_custom_content"
+    },
+    {
+        "id"            : "dwh-get-iframe-shortcode",
+        "function"      : "dwh_get_iframe_shortcode",
+        "name"          : "get_iframe"
+    },
+    {
+        "id"            : "dwh-get-widget-shortcode",
+        "function"      : "dwh_get_widget_shortcode",
+        "name"          : "get_widget"
+    },
+    {
+        "id"            : "dwh-logo-shortcode",
+        "function"      : "dwh_logo_shortcode",
+        "name"          : "dwh_logo"
+    },
+    {
+        "id"            : "dwh-main-banner-shortcode",
+        "function"      : "dwh_main_banner_shortcode",
+        "name"          : "dwh_main_banner"
+    },
+    {
+        "id"            : "dwh-main-menu-shortcode",
+        "function"      : "dwh_main_menu_shortcode",
+        "name"          : "dwh_main_menu"
+    },
+    {
+        "id"            : "dwh-map-shortcode",
+        "function"      : "dwh_map_shortcode",
+        "name"          : "dwh_map"
+    },
+    {
+        "id"            : "dwh-scroll-shortcode",
+        "function"      : "dwh_scroll_shortcode",
+        "name"          : "dwh_scroll"
+    },
+    {
+        "id"            : "dwh-slider-shortcode",
+        "function"      : "dwh_slider_shortcode",
+        "name"          : "dwh_slider"
+    },
+    {
+        "id"            : "dwh-tab-shortcode",
+        "function"      : "dwh_tab_shortcode",
+        "name"          : "dwh_tab"
+    },
+    {
+        "id"            : "dwh-tabs-shortcode",
+        "function"      : "dwh_tabs_shortcode",
+        "name"          : "dwh_tabs"
+    },
+    {
+        "id"            : "dwh-translate-shortcode",
+        "function"      : "dwh_translate_shortcode",
+        "name"          : "dwh_google_translate"
+    },
+    {
+        "id"            : "dwh-list-shortcode",
+        "function"      : "dwh_list_shortcode",
+        "name"          : "dwh_list"
+    },
+    {
+        "id"            : "dwh-sidebar-shortcode",
+        "function"      : "dwh_sidebar_shortcode",
+        "name"          : "dwh_sidebar"
+    }
+]

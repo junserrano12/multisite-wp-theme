@@ -1,0 +1,102 @@
+#main-menu-container {
+
+    #main-menu-icon {
+        position: relative;
+        height: 30px;
+        width: 30px;
+
+        @include menuicon;
+    }
+
+    #main-menu {
+
+        .menu {
+
+            li {
+
+                position: relative;
+                width: auto;
+                display: block;
+
+                a {
+                    display: block;
+                    position: relative;
+                    color: inherit;
+
+                    &:link ,
+                    &:visited,
+                    &:hover ,
+                    &:active {
+                        color: inherit;
+                    }
+                }
+
+                > .sub-menu {
+                    position: absolute;
+                    display: none;
+                    min-width: 150px;
+
+                    > li {
+                        display: block;
+                        position: relative;
+
+                        a {
+                            width: auto;
+                        }
+                    }
+                }
+
+                &:hover,
+                &.current-menu-item {
+                    a {
+                        text-decoration: none;
+                    }
+
+                    > .sub-menu {
+                        display: block;
+                    }
+                }
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                position: relative;
+                clear: both;
+            }
+        }
+    }
+
+}
+
+@include breakpoint(xs) {
+    #main-menu-container {
+        #main-menu {
+           .menu {
+                li {
+                    display: block;
+                    float: none;
+                    a {
+                        text-align: center;
+                    }
+
+                    > .sub-menu {
+                        position: relative;
+                        min-width: 0;
+                    }
+
+                    &:hover,
+                    &.current-menu-item {
+                        a {
+                            text-decoration: none;
+                        }
+
+                        > .sub-menu {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

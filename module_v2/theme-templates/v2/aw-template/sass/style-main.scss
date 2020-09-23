@@ -1,0 +1,66 @@
+@import "v2/base/_variables.scss";
+@import "v2/base/_mixins.scss";
+
+#cta-container {
+    background: #ccc;
+    padding: 14px;
+    .control-wrapper {
+        &.cta-calendar-wrapper {
+            text-align: left;
+        }
+    }
+}
+
+#main-menu-container {
+    display: block;
+    position: relative;
+    min-height: 30px;
+
+    #main-menu-icon {
+        position: absolute;
+        right: 15px;
+        top: 0;
+    }
+
+    #main-menu {
+        .menu {
+            li {
+                a {
+                    padding: 6px 12px;
+                }
+                &:hover,
+                &.current-menu-item {
+                    a {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#main-banner-container {
+    #main-banner {
+        &.flexslider {
+            .slides {
+                li {
+                    .slider-image-caption {
+                        display: block;
+                        position: absolute;
+                        bottom: 0;
+                        width: 100%;
+                        background: rgba($black, 0.5);
+                        .slider-caption {
+                            padding: 5px;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#logo-container {
+    margin-bottom: 20px;
+}

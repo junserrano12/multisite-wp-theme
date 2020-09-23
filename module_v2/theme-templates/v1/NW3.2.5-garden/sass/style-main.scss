@@ -1,0 +1,81 @@
+body {background:#F3EEE4; font-size:13px; color:#000; font-family:'Muli', sans-serif;}
+h1, h2, h3{ font-family:inherit; }
+h1 { font-size:1.846em; color:#442511;}
+h2 { font-size:1.538em; color:#442511;}
+h3 { font-size:1.231em; color:#442511;}
+a, a:hover { color:#000; }
+
+#wrapper{display:block; position:relative; width:100%; height:auto; margin:0 auto;}
+
+	.ie8 .content, .ie7 .content{width:1100px;}
+	.content{position:relative; width:1100px; margin:0 auto;}
+	.content:after{content:""; display:block; position:relative; clear:both;}
+
+	#header{display:block; position:absolute; width:100%; height:auto; z-index:130;
+			background: -moz-linear-gradient(top, rgba(255,255,255,0.8) 0%, rgba(234,225,206,0.8) 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(234,225,206,0.8)));
+			background: -webkit-linear-gradient(top, rgba(255,255,255,0.8) 0%,rgba(234,225,206,0.8) 100%);
+			background: -o-linear-gradient(top, rgba(255,255,255,0.8) 0%,rgba(234,225,206,0.8) 100%);
+			background: -ms-linear-gradient(top, rgba(255,255,255,0.8) 0%,rgba(234,225,206,0.8) 100%);
+			background: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(234,225,206,0.8) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', endColorstr='#cceae1ce',GradientType=0 );}
+
+		#header-container{display:block; position:relative;}
+
+			#main-menu-container{display:block; position:relative; text-align:center; z-index:100; border-bottom:5px solid #80441C; }
+			#main-menu{background:transparent; position:relative; width:100%;}				
+				#main-menu > ul{position:relative; height:auto; width:auto; font-size:0;}
+				.ie7 #main-menu > ul, .ie8 #main-menu > ul{font-size:inherit;}
+					#main-menu > ul  li{display:inline-block; position:relative; text-align:center; list-style:none; font-size:1rem;}
+						#main-menu > ul li a{display:block; position:relative; text-decoration:none; padding:5px 1em; color:#80441C;}
+						#main-menu ul li.current-menu-item a, #main-menu > ul li a:hover {color:#fff; background:#80441C;}
+				#main-menu .sub-menu{position:absolute; margin:0; padding:0;}		
+					#main-menu .sub-menu li{display:block; text-align:left; list-style:none;}
+						#main-menu .sub-menu li a{padding:3px 6px;}				
+
+			#logo-container {text-align: center; padding:1em 0;}
+				#logo-container .logo{display:block; position:relative;}			
+	
+			#google_translate_element{position:absolute; top:1em; right:0;}
+				#google-translate-container .content{width:auto;}
+
+	#slider-container{display:block; position:relative; width:100%; overflow:hidden; z-index:100; border-bottom:5px solid #D7BDB0;}
+	.ie7 #slider-container, .ie8 #slider-container{width:1366px; margin:0 auto;}
+		#slider-container .slider-content{width:auto;}
+			#slider{width:auto;}
+				.slider-image-caption{display:block; position:absolute; bottom:0; height:auto; width:100%; text-align:left; background:rgba(0,0,0,0.4); color:#999; }
+					.slider-image-caption p{margin-bottom:0; padding:8px;}
+	
+	#cta-container{color:#252525; position:absolute; bottom:10%; left:10%; width:280px; text-align: center; padding:10px;
+				background: -moz-linear-gradient(top, rgba(255,255,255,0.8) 0%, rgba(234,225,206,0.8) 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(234,225,206,0.8)));
+				background: -webkit-linear-gradient(top, rgba(255,255,255,0.8) 0%,rgba(234,225,206,0.8) 100%);
+				background: -o-linear-gradient(top, rgba(255,255,255,0.8) 0%,rgba(234,225,206,0.8) 100%);
+				background: -ms-linear-gradient(top, rgba(255,255,255,0.8) 0%,rgba(234,225,206,0.8) 100%);
+				background: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(234,225,206,0.8) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', endColorstr='#cceae1ce',GradientType=0 );}
+		#cta-container .cta-moc-container{width:auto;}
+		.ie9 #cta-container {filter:none;}
+			.ui-datepicker {background:#ddd; border:1px solid #D1A243;}
+			.ui-datepicker-header {background:#ffffff; color:#000000;}
+			.ui-state-default { color:#252525;}
+			.ui-datepicker-unselectable span { color:#777;}
+			.ui-datepicker-current-day a {color:#b86709;}
+			.ui-datepicker-today a {color: #BD9E56;}
+			 
+	#main{display:block; position:relative;}
+		#main-container{display:block; position:relative; padding:10px;}
+			#primary{display:block; position:relative;}
+				#primary-main{position:relative; width:auto; z-index:20;}
+				
+	#footer{display:block; position:relative; background:#44240F; min-height:100px; height:auto; padding:1em 0; color:#fff;}	
+		#footer-container{display:block; position:relative;}
+			#footer-container .content p{margin:0;}
+			#footer-container .content a {color:#fff;}
+				#copyright-container{text-align:center;}
+				#secondary-menu-container{float:left; display:block; position:relative; padding:6px 0;}
+					#secondary-menu{background:transparent; display:block; position:relative; width:auto;}
+						#secondary-menu ul{display:block; position:relative; width:auto; margin:0 auto; text-align:left; font-size:0;}
+							#secondary-menu ul li{display:inline-block; position:relative; text-align:center; font-size:0.7rem;}
+								#secondary-menu ul li a{display:block; position:relative; text-decoration:none;  margin-right:4px; padding-right:4px; border-right:1px solid;}
+								#secondary-menu ul li:last-child a{border-right:none;}

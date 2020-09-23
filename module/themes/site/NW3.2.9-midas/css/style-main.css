@@ -1,0 +1,67 @@
+/*DEFAULT*/
+body{font-size:13px; color:#575757;  font-family: arial, sans-serif;}
+h1, h2, h3{font-weight:bold; margin-bottom:0.5em; font-family: arial, sans-serif;}
+h2, h3, h4{color:#EA5E00; font-family: arial, sans-serif; margin: 0.4em 0em;}
+h1{font-size:1.429em; color:#454545}
+h2{font-size:1.923em;}
+h3{font-size:1.154em;} 
+h4{font-size: 1.077em; color: #131313;}  
+h5, h6{font-size:1em;}
+
+#wrapper{display:block; position:relative; width:100%; height:auto; margin:0 auto;}
+
+	.content{margin:0 auto;}
+	.menu-list{list-style: none;}
+	.sidebar-container{display: block; position: relative;}
+
+	#sidebar{display: block; position: fixed; width:12%; top: 100px; }
+	#logo-container{margin: 0 auto; text-align: center; width: 100%; margin-bottom: 1em;}
+	#header-menu-container{padding: 10px 2px; border-top: 1px solid #999999; border-bottom: 1px solid #999999;}
+		#header-menu-container .menu-list{margin: 0;}
+		#header-menu-container ul.menu-list li{line-height: 1.846;}
+		#header-menu-container ul.menu-list li a{text-decoration: none; text-transform: uppercase; letter-spacing: 0.04em;}
+
+	#content-section{position: relative; display: block; top: 100px; width: 78%; margin: 0 0 0 205px; }
+		#slider-container{margin-bottom: 2em;}
+		
+	#footer{display: block; position: relative; width: auto; margin: 2em 0 0; color:#fff;}
+		#footer-top{display:block; position:relative;}						
+		#footer-main{padding: 1em; position: relative; background: #B34700;}
+			.footer-main h4{color: #ffffff; text-transform: uppercase; padding: 0 0 4px; letter-spacing: 0.05em;}
+		#footer-bottom{display: block; position: relative; background: #EA5E00; text-align: center; padding: 1em; color: #ffffff;}
+			.footer-bottom p{margin: 0; font-size: 0.923em;}
+
+#main-menu-container{display:block; position:relative; z-index:20; padding:1em 0;}
+	#main-menu{background:transparent; display:block; position:relative; width:100%;}				
+		#main-menu > ul{position:relative; height:auto; width:auto; margin:0 auto; text-align:left;}
+		.ie7 #main-menu > ul, .ie8 #main-menu ul{font-size:inherit;}
+			#main-menu > ul li{display:block; position:relative; list-style:none; text-transform: uppercase; line-height: 1.8em;}
+				#main-menu > ul li a{display:block; position:relative; text-decoration:none;}				
+				#main-menu > ul li.current-menu-item a,
+				#main-menu > ul li a:hover{text-decoration: none;}				
+		#main-menu .sub-menu{position:relative; margin:0; padding:0;}
+			#main-menu .sub-menu li{display:block; position:relative; text-align:left; list-style:none;}
+				
+				
+#cta-container{position:fixed; top:0; width:100%; z-index:100; background:#ffffff; -webkit-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.55); -moz-box-shadow: 0px 3px 3px 0px rgba(135, 135, 135, 0.55); box-shadow: 0px 3px 3px 0px rgba(135, 135, 135, 0.55);}
+	#cta-container .cta-content{display:block; position:relative; width:100%; text-align:center;}
+	#cta-container .control-wrapper{margin:0 0.5em; padding:0; text-align:center;}	
+	#cta-container .cta-title-container{margin:0 1em 0em 0em;}
+	#cta-container .cta-title-container a{text-decoration: none; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; color: #343333;}
+	#cta-container .ctabutton{border: none; background: #EA5E00; border-radius: 0; color: #ffffff; font-weight: 600; padding: 20px 12px; letter-spacing: 0.05em; text-transform: capitalize; cursor: pointer;}
+	#cta-container .ctabutton:hover{background:#FF7315; }
+	#cta-container .cta-moc-container{padding: 0; margin: 0; width: 120px; position: relative; vertical-align: middle;}
+	#cta-container .cta-moc-container p{margin:0;}
+	#cta-container .cta-calendar-container{padding: 6px 0;}
+	#cta-container .cta-calendar-container, .calendar-input input{background: #E4E4E4;} 
+	#cta-container .calendar-input input{color: #EA5E00; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; text-indent: 6px; }
+		#cta-container .ctabutton{-webkit-appearance:none;  -webkit-border-radius:0px;}
+	#cta-container .calendar-label{width: auto; display: inline-block; position: relative; min-width: 65px; left: 6px; text-align: left; color: inherit;}
+	#cta-container .calendar-input{width: auto; display: inline-block; position: relative;}
+
+#logo-container{display:block; position:relative; text-align: center;}
+	#logo-container a{display:block; position:relative;}
+		#logo-container a img{width:100%;}	
+
+#bpgtipcontent{top:35px; }		
+#bpgtipcontent:after{border-color: transparent transparent #E0C48F transparent; top:-24px;} 

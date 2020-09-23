@@ -1,0 +1,18 @@
+[
+    {
+        "id"            : "blank-template",
+        "name"          : "Blank Template"
+    },
+    {
+        "id"            : "aw-template",
+        "name"          : "AW Template"
+    },
+    {
+        "id"            : "nw-template",
+        "name"          : "NW Template"
+    },
+    {
+        "id"            : "mf-template",
+        "name"          : "Mobile First Template"
+    }
+]

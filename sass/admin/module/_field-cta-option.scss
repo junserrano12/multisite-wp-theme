@@ -1,0 +1,46 @@
+#dwh-cta-option-container-1 {
+    
+    .container-content-item {
+        margin-bottom: 2em;
+
+        .field-content-container-cta-label {
+
+            .row {
+                &:after {
+                    content: '';
+                    display: block;
+                    position: relative;
+                    clear: both;
+                }
+
+                .column {
+                    width: calc(32.33% - 2px);
+                    float: left;
+                    margin-right: 1.5%;
+                    margin-bottom: 1em;
+                    border: 1px solid rgba($black, 0.1);
+
+                    &:nth-child(3n) {
+                        margin-right: 0;
+                    }
+
+                    label {
+                        padding: 5px 10px;
+                        background: #ccc;
+                        display: block;
+                    }
+
+                    input[type="text"] { 
+                        margin: 10px 10px 0;
+                        width: calc(100% - 20px);
+                    }
+
+                    .description {
+                        margin: 0 10px 10px;
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+/*BUTTON*/
+.button{text-decoration:none; display:inline-block; position:relative; cursor:pointer; color:#000000; padding:6px 10px; font-weight:bold;   background: rgb(255,224,66); background: -moz-linear-gradient(top,  rgba(255,224,66,1) 1%, rgba(255,147,31,1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(255,224,66,1)), color-stop(100%,rgba(255,147,31,1))); background: -webkit-linear-gradient(top,  rgba(255,224,66,1) 1%,rgba(255,147,31,1) 100%); background: -o-linear-gradient(top,  rgba(255,224,66,1) 1%,rgba(255,147,31,1) 100%); background: -ms-linear-gradient(top,  rgba(255,224,66,1) 1%,rgba(255,147,31,1) 100%); background: linear-gradient(to bottom,  rgba(255,224,66,1) 1%,rgba(255,147,31,1) 100%);  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe042', endColorstr='#ff931f',GradientType=0 ); border: 1px solid #ff6f0f; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; -webkit-box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 1px rgba(255,255,255,1); -moz-box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 1px rgba(255,255,255,1); box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 1px rgba(255,255,255,1); text-shadow: 0px 0px 0px rgba(000,000,000,1), 0px 0px 0px rgba(255,255,255,0); }
+.button:hover{color:#000000; background:#F2680D;}
+
+/*content*/
+.content{display:block; position:relative; margin:0 auto;}
+.content:after{content:""; display:block; position:relative; clear:both;}
+
+/*promo marker*/
+.promo-marker-text{ color: #ffffff; font-size: 30px; position: relative; float: right; font-weight: bold; z-index: 999999999; margin-top: -200px; margin-right: 130px; background: red; padding: 10px;}
+.hide{display:none !important;}

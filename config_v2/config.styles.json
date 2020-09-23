@@ -1,0 +1,21 @@
+[
+ 	{
+		"handle" 	    : "reset",
+		"src"  		    : "dwh_get_main_directory_uri()/css/reset.css",
+		"media"       	: "all",
+        "custom_page"   : "page-custom"
+	},
+    {
+        "handle"        : "page-custom",
+        "src"           : "dwh_get_main_directory_uri()/css/plugin-v2.css",
+        "media"         : "all",
+        "custom_page"   : "page-custom"
+    },
+    {
+        "handle"        : "animate",
+        "src"           : "dwh_get_main_directory_uri()/css/animate.css",
+        "media"         : "all",
+        "register_only" : true
+    }
+
+]

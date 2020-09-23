@@ -1,0 +1,40 @@
+@import "v2/base/_variables.scss";
+@import "v2/base/_mixins.scss";
+
+#footer {
+    background: #ccc;
+
+    #footer-container {
+        display: block;
+        position: relative;
+    }
+}
+
+#main-banner-container {
+    #main-banner {
+        &.flexslider {
+            .slides {
+                li {
+                    .slider-image-caption {
+                        display: block;
+                        position: absolute;
+                        bottom: 0;
+                        width: 100%;
+                        background: rgba($black, 0.5);
+                        .slider-caption {
+                            padding: 5px;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+
+            .flex-control-nav {
+                position: absolute;
+                display: block;
+                text-align: center;
+                bottom: 30px;
+            }
+        }
+    }
+}

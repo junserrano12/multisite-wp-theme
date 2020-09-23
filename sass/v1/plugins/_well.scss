@@ -1,0 +1,240 @@
+/*====================*\
+    Added by Manny
+    Aug. 10 2015
+\*====================*/
+#primary-main{
+    padding: 0;
+}
+
+/*Container Well*/
+.well{
+	background-color: #f5f5f5;
+ 	border: 1px solid #e3e3e3;
+	border-radius: 5px;
+  	padding: 15px;
+  	margin-top: 10px;
+}
+
+/*Image Holder and Container*/
+.image-holder{
+	margin: 15px 0;
+}
+.image-holder img{
+	width: 100%;
+	height: auto;
+}
+
+.promo-content
+/*Promo Listing*/
+.sub-promo-list{
+	margin: 15px 0;
+    transition: all 0.2s ease-in 0s;
+}
+.sub-promo-details{
+	padding: 15px 15px 25px;
+	background-color: #FFFCCC;
+	border: 1px solid #FFE79F;
+    margin-bottom: 10px;
+}
+.sub-promo-details:last-of-type {
+	margin-bottom: 0;
+}
+.sub-promo-details:hover { 
+    -moz-box-shadow: 0 0 10px #ccc; 
+    -webkit-box-shadow: 0 0 10px #ccc; 
+    box-shadow: 0 0 10px #ccc; 
+} 
+.sub-promo-details .sub-promo-title{
+    margin: -40px 8px 5px;
+    height: auto;
+    width: 375px;
+    overflow-x: auto;
+}
+.sub-promo-details .sub-promo-title-full-width{
+   width: 100% !important; /*override the sub-promo-title width*/
+}
+    .sub-promo-details .sub-promo-title h1 {
+    	font-size: 18px;
+    }
+    .sub-promo-details .sub-promo-title h1 strong{
+        color: #F99B17;
+        font-weight: 600;
+    }
+.sub-promo-details .ribbon {
+    width: 117px;
+    height: 16px;
+    position: absolute;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    right: -565px;
+    top: -10px;
+}
+    .sub-promo-details .ribbon:before {
+        display: block;
+        width: 0;
+        height: 0;
+        content: "";
+        position: absolute;
+        left: -18px;
+        top: 3px;
+        z-index: 100;
+        border-width: 7px 13px 13px;
+        border-style: solid;
+        transform: rotate(90deg);
+    }
+    .sub-promo-details .ribbon span{
+        font-weight: 700;
+        font-size: 10px;
+        letter-spacing: normal;
+        text-transform: uppercase;
+    }
+    .sub-promo-details .ribbon.orange {
+        background-color: #F7941D;
+        line-height: 100%;
+    }
+        .sub-promo-details .ribbon.orange:before {
+            border-color: #F7941D #F7941D transparent #F7941D;
+        }
+
+        /* Promo Tabs*/
+        #promo-accordion-list .list-accordion .accordion-caption a{padding: 8px 0px 8px 15px; border-bottom: 1px solid #D9D9D9;}
+        #promo-accordion-list h2 { margin: 0px; font-size: 1.35em; }
+        #promo-accordion-list .list-accordion .accordion-caption a.active::after, #promo-accordion-list .list-accordion .accordion-caption a::after{content: ""; }
+        #promo-accordion-list .list-accordion .accordion-content{ background: #f5f5f5 none repeat scroll 0 0; border-left: 1px solid #d9d9d9; border-right: 1px solid #d9d9d9; margin-bottom: 20px; border-bottom: 1px solid #D9D9D9; }
+
+        #promo-accordion-list .fa { position: absolute; right: 18px; top: 15px; color: #252525; font-size: 1.25em; opacity: .5; }
+        
+        .accordion-caption > a:not(.active) > span::before{
+            font-family: FontAwesome;
+            content: "\f054";
+        }
+        .accordion-caption > a > span::before{
+            font-family: FontAwesome;
+            content: "\f078";
+        }
+
+.sub-promo-details .sub-promo-description{
+	position: relative;
+	margin: 15px 10px;
+	line-height: 150%;
+}
+.sub-promo-details .sub-promo-cta-container{
+	text-align: center;
+}
+	.sub-promo-details .sub-promo-cta-container label{
+		color: #000;
+	}
+
+/*Link View Details Button*/
+.btn {
+  color: #000;
+  background-color: #DDD;
+  font-size: 14px;
+  font-weight: 900;
+  text-decoration: none;
+  padding: 5px 15px;
+  margin: 5px 0;
+  border-radius: 3px;
+  border: none;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.btn-ViewDetails {
+  background-color: orange;
+  color: white;
+  font-weight: 600;
+  padding: 7px 10px;
+  right: 0;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 11px;
+  margin-top: -12px;
+}
+.btn-ViewDetails:hover {
+  color: #F26D21;
+}
+.promo-period{
+		color: #000;
+		margin: 0 11px;
+		display: inline-block;
+		float: left;
+	}
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 1199px) {
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    .sub-promo-details .ribbon {
+        right: -350px;
+        width: 105px;
+        top: -12px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .sub-promo-details .sub-promo-title {
+        width: 320px;
+    }
+    .sub-promo-details .ribbon {
+        right: -447px;
+        width: 100px;
+        top: -12px;
+    }
+    .sub-promo-details .ribbon::before {
+        
+        border-width: 6px 12px 11px;
+    }
+    .sub-promo-details .sub-promo-title {
+        width: 140px;
+    }
+    .sub-promo-details { overflow: auto; }
+    .btn-ViewDetails {
+        background-color: #F26D21;
+        border: 1px solid #F26D21;
+        color: #FFF;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 15px 0 9px 10px;
+        float: left;
+    }
+        .btn-ViewDetails:hover,
+        .btn-ViewDetails:active,
+        .btn-ViewDetails:focus{
+            border: 1px solid #F26D21;
+            color: #F26D21;
+            background-color: transparent;
+        }
+}
+@media (max-width: 570px){
+    .sub-promo-details .ribbon {
+        right: -268px;
+        width: 100px;
+        top: -12px;
+    }
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .sub-promo-details .sub-promo-title {
+        width: 215px;
+        margin: 0px 8px 5px;
+    }
+    .sub-promo-details .ribbon {
+        right: -227px;
+        width: 100px;
+        top: -12px;
+    }
+    .sub-promo-details .ribbon::before{
+        top: -2px;
+        border-width: 19px 13px 11px;
+    }
+}

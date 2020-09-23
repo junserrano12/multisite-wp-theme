@@ -1,0 +1,35 @@
+/* BPG */
+#bpg-container{background:url(../images/bpg.png) no-repeat 0 0 transparent; width: 109px; height: 109px; display: block; position: absolute; bottom:10%; right:10%; z-index:10;}
+    #bpg-container a{display:block; position:relative; width:100%; height:100%;}
+
+.bpg{margin:0 auto; position:relative;}
+    .bpglinkcontainer{margin-bottom:0.5em; padding:0; line-height:16px;}
+    /*.bpglinkcontainer:before{content:""; display:block; left:0; top:0; position:absolute; width:16px; height:16px; background:url(../images/icons.png) no-repeat top left transparent;}*/
+    .bpglinkcontainer:before { display: none; }
+    .bpglink{display:inline-block;}
+    
+    .bpgtip{background:url(../images/icons.png) no-repeat right bottom transparent; display:inline-block; position:relative; width:16px; height:16px; cursor:pointer; top:2px; margin-left:0.2em;}
+        #bpgtipcontent{line-height:1.5em; font-size:0.8em;display:none; width:280px; color:#000000; position:absolute; bottom:200%; left:-15px; z-index:10;}
+        #bpgtipcontent span{display:block; position:relative; padding:10px; background:#E0C48F; box-shadow:2px 3px 4px 4px rgba(0, 0, 0, 0.6); border-radius: 5px;}
+        #bpgtipcontent:after{content:''; display:block; position:absolute; width:0; height:0; top:100%; left:10px; border-width:12px; border-style:solid; border-color:#E0C48F transparent transparent transparent;}
+        .bpgtip:hover #bpgtipcontent{display:block;}
+    .bpgcheck{background:url(../images/icons.png) repeat 0 bottom transparent; position:relative; width:16px; height:16px; display:inline-block; top:2px; margin-right:0.2em;}
+    .bpglinksmall:hover .bpgcheck{background-position:0 top;}
+
+    .bpg .list-bullet{margin:1em 0.5em; text-align:left;}
+
+    #bpgmodal{display:block; position:relative; padding:20px 0; background:#fff; border-radius:15px; -moz-border-radius:15px; -webkit-border-radius:15px;}
+    #bpgmodal .content{width:auto; max-width: 800px;}
+    #bpgmodal h2{color:#000;}
+        .bpgmodal-content{height:380px; margin:10px 0; overflow:auto; padding:0 20px;}
+        .bpgmodal-content .ctabpglink{font-size:1rem;}
+
+    @media (max-width: 979px) {
+        #bpgmodal .content{ width:718px; padding:0 1em;}
+        .bpgmodal-content{padding:0;}
+        .bpgmodal-content .ctabpglink{font-size:inherit;}
+    }      
+    @media (max-width: 767px){
+        #bpgmodal .content{ width:auto;}
+    }
+            

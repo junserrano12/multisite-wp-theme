@@ -1,0 +1,56 @@
+[
+	{
+		"field_name" 	: "attachment_image_link",
+		"label"  		: "Custom Link",
+		"input"			: "text",
+		"value" 		: "",
+		"helps" 		: "Insert Media Custom Link"
+	},
+	{
+		"field_name" 	: "attachment_image_class",
+		"label"  		: "Custom Class",
+		"input"			: "text",
+		"value" 		: "",
+		"helps" 		: "Add image custom class"
+	},
+	{
+		"field_name" 	: "attachment_image_title",
+		"label"  		: "Image Title",
+		"input"			: "text",
+		"value" 		: "",
+		"helps" 		: "Provide another Image Title (USED BY V1 [gallery_accordion|grid|teaser])"
+	},
+	{
+		"field_name" 	: "attachment_image_alt",
+		"label"  		: "Image Alt",
+		"input"			: "text",
+		"value" 		: "",
+		"helps" 		: "Provide another image alt (USED BY V1 [gallery_accordion|grid|teaser])"
+	},
+	{
+		"field_name" 	: "attachment_offset",
+		"label"  		: "Offset",
+		"input"			: "text",
+		"value" 		: "",
+		"helps" 		: "Span image offset (USED BY SHORTCODES [gallery_accordion|grid|teaser])"
+	},
+	{
+		"field_name" 	: "dwh_image_expire_date",
+		"label"  		: "Expiry Date",
+		"input"			: "date",
+		"value" 		: "",
+		"helps" 		: "Set Expiration Date of Image"
+	},
+	{
+		"field_name" 	: "dwh_image_colorbox",
+		"label"  		: "Colorbox",
+		"input"			: "select",
+		"value" 		: [
+							["none", "None"],
+							["default", "Default"],
+							["inline", "Inline"]
+						  ],
+		"helps" 		: "Set Colorbox"
+	}
+
+]

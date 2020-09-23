@@ -1,0 +1,12 @@
+[
+    {
+        "id"            : "body-top",
+        "name"          : "Body Top",
+        "description"   : "Body Top"
+    },
+    {
+        "id"            : "body-bottom",
+        "name"          : "Body Bottom",
+        "description"   : "Body Bottom"
+    }
+]

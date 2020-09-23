@@ -1,0 +1,43 @@
+/* TAB MENU */
+.tab-menu {
+    display:block;
+    position:relative;
+    margin:0;
+    padding:0;
+    list-style:none;
+
+    &:after {
+        content:"";
+        display:block;
+        position:relative;
+        clear:both;
+    }
+
+    li {
+        float: left;
+        margin: 0;
+
+        a{
+            display: block;
+            padding: 5px 1em;
+            border: 1px solid #777;
+            text-decoration: none;
+            background: #fff;
+            color: #000;
+
+            &.active,
+            &:hover {
+                background: #777;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.tab-container {
+    display: none;
+    background: #777;
+    padding: 1em;
+    color: #000;
+    margin-bottom: 1.5em;
+}

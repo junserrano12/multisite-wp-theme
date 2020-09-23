@@ -1,0 +1,32 @@
+[
+    {
+        "handle"    : "nw-plugin",
+        "src"       : "dwh_get_main_directory_uri()/css/plugin-v1.css",
+        "ver"       : "1.2.1",
+        "media"     : "all"
+    },
+    {
+        "handle"    : "nw-main",
+        "src"       : "dwh_get_theme_template_uri()/css/style-main.css",
+        "ver"       : "1.2.1",
+        "media"     : "all"
+    },
+    {
+       "handle"     : "nw-main",
+       "option"     : "onetheme_customizer_options",
+       "field"      : "main-css",
+       "inline"     : true
+    },
+    {
+        "handle"    : "nw-main-mq",
+        "src"       : "dwh_get_theme_template_uri()/css/style-mediaquery.css",
+        "ver"       : "1.2.1",
+        "media"     : "all"
+    },
+    {
+       "handle"     : "nw-main-mq",
+       "option"     : "onetheme_customizer_options",
+       "field"      : "media-query-css",
+       "inline"     : true
+    }
+]

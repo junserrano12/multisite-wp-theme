@@ -1,0 +1,237 @@
+/* IMAGES */
+#cboxPrevious,
+#cboxNext,
+#cboxClose,
+#cboxSlideshow{
+    background-image: url($templateurl+'/images/cboxcontrols.png');
+}
+
+.ui-datepicker-trigger {
+    background-image: url($templateurl+'/images/calendar.png');
+    background-position: 0 bottom;
+}
+
+.ui-icon {
+    background-image: url($templateurl+'/images/cboxcontrols.png');
+}
+
+.bpgcheck {
+    background-image: url($templateurl+'/images/icons.png');
+    background-position: 0 top;
+}
+
+.bpgtip {
+    background-image: url($templateurl+'/images/icons.png');
+    background-position: right bottom;
+}
+
+#cta-container {
+    /* CTA */
+    .cta-title-container,
+    .cta-title-wrapper {
+        .cta-title {
+            font-size: $regular;
+            a {
+                font-size: inherit;
+                color: inherit;
+            }
+        }
+    }
+}
+
+.cta-mobile-button-wrapper {
+    display: none;
+    z-index: 50;
+    @include breakpoint(xs) {
+        display: block;
+    }
+}
+
+/* FLEXSLIDER */
+/* flexslider icons */
+// @font-face {
+//   font-family: 'flexslider-icon';
+//   font-display: auto;
+//   src: url($templateurl+'/fonts/flexslider-icons/flexslider-icon.eot');
+//   src: url($templateurl+'/fonts/flexslider-icons/flexslider-icon.eot?#iefix') format('embedded-opentype'),
+//        url($templateurl+'/fonts/flexslider-icons/flexslider-icon.woff') format('woff'),
+//        url($templateurl+'/fonts/flexslider-icons/flexslider-icon.ttf') format('truetype'),
+//        url($templateurl+'/fonts/flexslider-icons/flexslider-icon.svg#flexslider-icon') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+/* flexslider reset */
+.slider-container {
+    display: block;
+    position: relative;
+}
+
+.flex-container a:hover,
+.flex-slider a:hover {
+    outline: none;
+}
+.slides,
+.slides > li,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.flex-pauseplay span {
+    text-transform: capitalize;
+}
+
+/* flexslider base */
+.flexslider {
+    margin: 0;
+    padding: 0;
+}
+
+.flexslider .slides > li {
+    z-index: 5;
+    display: none;
+    -webkit-backface-visibility: hidden;
+}
+.flexslider .slides img {
+    width: 100%;
+    display: block;
+}
+.flexslider .slides:after {
+    content: "\0020";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+html[xmlns] .flexslider .slides {
+    display: block;
+}
+* html .flexslider .slides {
+    height: 1%;
+}
+.no-js .flexslider .slides > li:first-child {
+    display: block;
+}
+
+/* DEFAULT */
+#wrapper {
+    overflow: hidden;
+
+    .scroll-to-container {
+        display: none;
+    }
+
+    &.wrapper-freeze {
+        height: 100vh;
+        overflow-y: hidden;
+    }
+
+    &.wrapper-scrolled {
+    .scroll-to-container {
+        display: block;
+    }
+    }
+
+    @include breakpoint(lg) {
+        max-width: 1366px;
+        margin: 0 auto;
+    }
+
+}
+
+.loading {
+    .flexslider-slider {
+        .slides {
+            > li {
+                &:first-child {
+                    display: block !important;
+                    opacity: 1 !important;
+                    z-index: 10 !important;
+                }
+
+                .slider-image-caption {
+                  display: none !important;
+                }
+            }
+        }
+
+        .flex-control-nav,
+        .flex-direction-nav {
+            display: none;
+        }
+
+        .flex-direction-nav {
+          a {
+            &:before {
+              font-family: sans-serif;
+              font-display: auto;
+              content: '';
+            }
+          }
+        }
+
+        .flex-viewport {
+            max-height: 300px;
+        }
+    }
+}
+
+/* GOOGLE TRANSLATE */
+#google-translate-container {
+    display: block;
+    position: relative;
+    height: 27px;
+}
+
+/* DEFAULT */
+.image-container {
+    a {
+        display: block;
+        position: relative;
+        text-decoration: none;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+.hide {
+
+    display: none !important;
+}
+
+.show {
+
+    display: block !important;
+}
+
+.hide-layer{
+    display: none;
+    @include breakpoint(xs) {
+        display: block;
+    }
+}
+
+.show-layer{
+    display: block;
+    @include breakpoint(xs) {
+        display: none;
+    }
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    li {
+        a {
+            color: inherit;
+        }
+    }
+}

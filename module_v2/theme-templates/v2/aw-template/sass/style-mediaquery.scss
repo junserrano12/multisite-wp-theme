@@ -1,0 +1,85 @@
+@import "v2/base/_variables.scss";
+@import "v2/base/_mixins.scss";
+
+@include breakpoint(xs) {
+    #wrapper {
+        &.wrapper-freeze {
+            height: auto;
+        }
+    }
+
+    #header {
+        margin: 30px 0 10px;
+    }
+
+    #main {
+        #main-container {
+            margin-bottom: 20px;
+
+            #sidebar {
+                display: block;
+                position: relative;
+                width: auto;
+                float: none;
+                padding: 0;
+            }
+
+            #primary {
+                width: auto;
+                display: block;
+                position: relative;
+                float: none;
+
+                #main-menu-container {
+                    background: #ccc;
+                    color: #fff;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    z-index: 105;
+
+                    &:before {
+                        content: 'Menu';
+                        display: block;
+                        position: relative;
+                        top: 0;
+                        width: 100%;
+                        left: 0;
+                        text-align: center;
+                        line-height: 30px;
+                    }
+
+                    #main-menu {
+                        background: #eee;
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        min-height: 100vh;
+
+                        .menu {
+                            li {
+                                display: block;
+                                position: relative;
+                                padding: 0;
+                                float: none;
+                                a {
+                                    display: block;
+                                    color: $black;
+                                    padding: 20px 0;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                #primary-container {
+                    .entry-content {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

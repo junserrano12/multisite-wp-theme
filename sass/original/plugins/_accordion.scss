@@ -1,0 +1,12 @@
+/*ACCORDION LIST*/
+.accordion-container{display:block; position:relative; width:auto; margin-bottom:1.5em;}
+.list-accordion{display:block; position:relative; width:auto; margin:0;}
+    .list-accordion .accordion-item{display:block; position:relative; list-style:none;}   
+    .list-accordion .accordion-caption{background:#EAE8DC none repeat scroll 0% 0%; display:block; position:relative; width:auto; height:auto; margin:0; text-align: left;}    
+        .list-accordion .accordion-caption a{display:block; position:relative; padding:5px 1em; text-decoration:none;}
+        .list-accordion .accordion-caption a h2{color: #333333; margin: 0; padding: 5px;}
+        .list-accordion .accordion-caption a:after{content:"+"; position:absolute; right:10px; top:5px; color:inherit; font-size: 25px;}
+        .list-accordion .accordion-caption a.active:after{content:"-";}
+    .list-accordion .accordion-content{position:relative; padding:1em;}
+        .list-accordion .accordion-details{display:block; position:relative;}
+.promo-image-holder img{max-height: 100%; max-width: 100%;}

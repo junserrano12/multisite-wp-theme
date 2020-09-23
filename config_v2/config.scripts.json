@@ -1,0 +1,92 @@
+[
+	{
+		"handle" 		: "html5shiv",
+		"src" 			: "dwh_get_main_directory_uri()/js/lib/html5shiv.js",
+		"in_footer" 	: false
+	},
+	{
+		"handle" 		: "jquery",
+		"src" 			: "includes_url()js/jquery/jquery.js",
+		"in_footer" 	: true
+	},
+	{
+		"handle" 		: "jquery-migrate",
+		"src" 			: "includes_url()js/jquery/jquery-migrate.min.js",
+		"in_footer" 	: true
+	},
+	{
+		"handle" 		: "comment-reply",
+		"has_comment" 	: true
+	},
+	{
+		"handle"        : "jquery-colorbox",
+        "src"           : "dwh_get_main_directory_uri()/js/lib/jquery.colorbox-min.js",
+        "register_only" : true,
+        "in_footer"     : true
+	},
+	{
+        "handle"        : "jquery-touch-swipe",
+        "src"           : "dwh_get_main_directory_uri()/js/lib/jquery.touchSwipe.min.js",
+        "register_only" : true,
+        "in_footer"     : true
+    },
+    {
+        "handle"        : "dwh-flexslider",
+        "src"           : "dwh_get_main_directory_uri()/js/lib/jquery.flexslider-min.js",
+        "deps"          : ["jquery-touch-swipe"],
+        "register_only" : true,
+        "in_footer"     : true
+    },
+    {
+        "handle"        : "dwh-nivoslider",
+        "src"           : "dwh_get_main_directory_uri()/js/lib/jquery.nivoslider-min.js",
+        "register_only" : true,
+        "in_footer"     : true
+    },
+	{
+		"handle"        : "global",
+        "src"           : "dwh_get_main_directory_uri()/js/v2/global.min.js",
+        "deps"			: ["jquery-colorbox"],
+        "register_only" : false,
+        "in_footer"     : true
+	},
+	{
+		"handle"        : "dwh-legacy",
+        "src"           : "dwh_get_main_directory_uri()/js/v2/legacy.min.js",
+        "register_only" : true,
+        "in_footer"     : true
+	},
+	{
+        "handle"        : "dwh-google-maps-api",
+        "src"           : "https://maps.google.com/maps/api/js",
+        "parameter"     : [
+                                {
+                                    "key"       : "key",
+                                    "option"    : "onetheme_site_options",
+                                    "field"     : "google-map-api",
+                                    "default"   : "AIzaSyBvzDeGG7F-cEUYLNhpTFbYnfrXj-H6qRk"
+                                }
+                          ],
+        "register_only" : true,
+        "in_footer"     : true
+    },
+	{
+        "handle"        : "dwh-google-maps-defer",
+        "src"           : "dwh_get_main_directory_uri()/js/v2/defer/google.maps.js",
+        "deps"          : ["dwh-google-maps-api"],
+        "register_only" : true,
+        "in_footer"     : true
+    },
+    {
+        "handle"        : "dwh-google-translate-defer",
+        "src"           : "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit",
+        "register_only" : true,
+        "in_footer"     : true
+    },
+    {
+        "handle"        : "dwh-facebook-defer",
+        "src"           : "dwh_get_main_directory_uri()/js/v2/defer/facebook.like.js",
+        "register_only" : true,
+        "in_footer"     : true
+    }
+]

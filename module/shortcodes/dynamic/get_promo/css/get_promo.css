@@ -1,0 +1,261 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+	
+	
+.button{font-family: helvetica, sans-serif; text-decoration: none; display: inline-block; position: relative; font-size: 14px; cursor: pointer; color: #000000 !important; padding: 15px 10px; line-height: 18px; text-align: center; vertical-align: middle; margin: 0; border: 1px solid #cccccc; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; font-weight: bold; box-shadow: 0px 1px 1px #333; -moz-box-shadow: 0px 1px 1px #333; -moz-box-shadow: 0px 1px 1px #333; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); background-color: #faa732; background-image: -moz-linear-gradient(top, #fbb450, #f89406); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406)); background-image: -webkit-linear-gradient(top, #fbb450, #f89406); background-image: -o-linear-gradient(top, #fbb450, #f89406); background-image: linear-gradient(to bottom, #fbb450, #f89406); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0); border-color: #f89406 #f89406 #ad6704; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);}
+
+
+
+		
+
+@media (max-width: 1366px) {
+	.content{width:940px;}
+}
+@media (max-width:1199px) {
+}
+@media (max-width: 979px) {
+	
+	
+}
+@media (max-width: 767px) {
+	.content{width:500px;}
+	#main-container{padding:0;}
+	#sidebar{width:auto; float:none; margin:0; padding-bottom:1em; position:relative !important;}
+	#primary{width:auto; float:none; margin:0 0 1em;}
+		#primary-header{position:absolute; top:0; left:0; z-index:100;}
+		#main-menu{background:#d6d6d6; display:block; position:relative; width:100%; margin:0 auto; bottom:0;}
+			#main-menu ul li{display:block; position:relative; text-align:center;}
+	#footer .copyright{float:right; width:500px;}
+	.image-container{width:300px; margin:0 auto 1em;}
+	.visible-layer{display:none;}
+	.hide-layer{display:block;}
+	.flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
+	.flex-direction-nav .flex-next { opacity: 1; right: 10px;}
+
+	.column-right .promo-details-container{display:block; width:auto; float:none; padding:20px 0 0 0;}
+	.column-right .cta-containerxxx{display:block; width:auto; float:none; padding:0;}
+
+	.hide-desk{display: none !important;}
+}
+@media (max-width: 570px) {
+	
+	.content{width:320px !important;}
+	.image-container{width:auto;}
+	
+	.cta-date-remaining{float:none; width:auto;}
+	.cta-calendar-container{float:none; width:auto;}
+		.calendar-label{width:auto;}
+		.calendar-input{width:auto;}
+		
+	/*.image-caption, .image-content{display: none;}*/
+	
+	.cta-containerxxx{
+		/*background-color: transparent !important;*/
+		position: static !important;
+		color: #000;
+		font-size: 12px !important;
+		padding: 6px !important;
+		width: 100% !important;
+		bottom: 0 !important;
+	}
+	.cta-date-remaining .calendar-label{
+		color: #000 !important;
+	}
+	
+	/*edited*/
+	.well{
+		background: #FFF !important;
+		border: 1px solid #FFF !important;
+		padding: 0 !important;
+	}
+	.cta-calendar-container{
+		margin: 5px 0 !important;
+	}
+	.ctapromobutton{
+		width: 90% !important;
+	}
+	.cta-date-remaining p{
+		font-size: 14px;
+	}
+	/*Ribbon CSS Styles*/
+	.sub-promo-details .sub-promo-title .ribbon {
+		 font-size: 16px !important;
+		 width: 100% !important;   
+		 position: absolute;
+		 background: #F26D21;
+		 text-decoration: underline;
+		 color: #fff;
+		 text-align: center;
+		 padding: .5em .5em;
+		 left: -27px !important;
+		 top: -5px;
+	}
+	.sub-promo-details .sub-promo-title .ribbon .ribbon-content:before {
+		 content: "";
+		 position: absolute;
+		 display: block;
+		 border-style: solid;
+		 border-color: #C2571A transparent transparent transparent;
+		 bottom: -0.7em !important;
+	}
+	.sub-promo-details .sub-promo-title .ribbon .ribbon-content:before {
+		 left: 0;
+		 border-width: 0.7em 0 0 0.7em !important;
+	}
+	
+	.btn--o-blue{
+		margin-top: 40px !important;
+	}
+	.sub-promo-details .sub-promo-description{
+		margin-top: 65px !important;
+	}
+}
+@media (max-width: 480px) {
+	.content{width:280px !important;}
+	#footer .copyright{float:right; width:280px;}
+}
+
+/*Responsive Utilities*/
+@media (max-width: 570px) {
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+@media (min-width: 1366px) {
+  
+}
+/*Visble in SmartPhone, Hide in all Width*/
+@media (min-width: 600px) and (max-width: 1366px) {
+ 
+}
+
+					
+.well{
+	background-color: #f5f5f5;
+ 	border: 1px solid #e3e3e3;
+	 border-radius: 5px;
+  	padding: 15px;
+  	margin-top: 10px;
+}
+.promo-content{
+	color: #000000;
+}
+.cta-date-remaining{
+	background-color: transparent;
+}
+.cta-date-remaining .cta-calendar-container{
+	margin: 0 5px;
+	text-align: left;
+}
+.cta-date-remaining .calendar-label{
+	color: #FFF;
+	font-weight: 700;
+}
+.cta-containerxxx{
+	background-color: rgba(0, 0, 0, 0.4);
+	font-size: 13px;
+	padding: 13px 20px;
+	position: absolute;
+	width: 40%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+ .image-caption{
+	 background-color: #000;
+	 padding: 13px 20px;
+	 transform: translate3d(1,1,5000px);
+ }
+.btn {
+  color: #000;
+  background-color: #DDD;
+  font-size: 14px;
+  font-weight: 900;
+  text-decoration: none;
+  padding: 5px 15px;
+  margin: 5px 0;
+  border-radius: 3px;
+  border: none;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.btn--o-blue {
+  background-color: transparent;
+  color: #F26D21;
+  padding: 0;
+  right: 0;
+  float: right;
+}
+.btn--o-blue:hover {
+  color: #F26D21;
+  text-decoration: underline;
+}
+/*Promo List*/
+.image-holder{
+	margin: 15px 0;
+}
+.image-holder img{
+	width: 100%;
+	height: auto;
+}
+#ui-datepicker-trigger{
+	z-index: 9999 !important;
+}
+.ui-datepicker-header{
+	padding: 3px 5px;
+}
+
+
+.sub-promo-list{
+	padding: 0 0 0 15px;
+	margin: 15px 0;
+}
+.sub-promo-details{
+	padding: 15px;
+	background-color: #FFF9E8;
+	border: 1px solid #E3E3E3;
+}
+	.sub-promo-details .sub-promo-title{
+		position: relative;
+	}
+	/*Ribbon CSS*/
+		.sub-promo-details .sub-promo-title .ribbon {
+			 font-size: 16px !important;
+			 width: 45%;   
+			 position: absolute;
+			 background: #F26D21;
+			 text-decoration: underline;
+			 color: #fff;
+			 text-align: center;
+			 padding: .5em .5em;
+			 left: -28px;
+			 top: -5px;
+		}
+		.sub-promo-details .sub-promo-title .ribbon .ribbon-content:before {
+			 content: "";
+			 position: absolute;
+			 display: block;
+			 border-style: solid;
+			 border-color: #C2571A transparent transparent transparent;
+			 bottom: -0.7em;
+		}
+		.sub-promo-details .sub-promo-title .ribbon .ribbon-content:before {
+			 left: 0;
+			 border-width: 0.8em 0 0 0.8em;
+		}
+.sub-promo-details .sub-promo-description{
+	position: relative;
+	margin: 40px 0 10px 0;
+}
+.sub-promo-details .sub-promo-cta-container{
+	text-align: center;
+}
+	.sub-promo-details .sub-promo-cta-container label{
+		color: #000;
+	}
+
+

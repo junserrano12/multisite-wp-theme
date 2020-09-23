@@ -1,0 +1,77 @@
+@import "v1/base/_variables.scss";
+@import "v1/base/_mixins.scss";
+@import "v1/base/_reset.scss";
+@import "v1/base/_content.scss";
+@import "v1/base/_default.scss";
+
+#header{
+	display:block; 
+	position:relative; 
+	width:auto; 
+	margin-bottom:4em; 
+	z-index:110;
+}
+#google-translate-container{
+	display:block; 
+	position:relative; 
+	float:none; 
+	margin-bottom:2em;
+}
+#main-menu{
+	background:transparent; 
+	position:relative; 
+	width:100%;
+	
+	> ul{
+		position:relative; 
+		height:auto; 
+		width:auto; 
+		margin:0 auto; 
+		text-align:center; 
+		font-size:0;
+		
+		li{
+			display:inline-block; 
+			position:relative; 
+			text-align:left; 
+			font-size:1rem;
+			
+			a{
+				display:block; 
+				position:relative; 
+				text-decoration:none;
+				padding:15px;
+			}
+		}
+	}
+}
+#header-container{
+	display:block; 
+	position:relative;
+}
+#logo-container{
+	float:left; 
+	width:30%;
+	
+	.logo{
+		display:block; 
+		position:relative; 
+		text-align: center; 
+		margin:30% 0 0;
+	}
+}
+#slider{
+	float:left; 
+	width:70%;
+}
+#sidebar-container{
+	float:left; 
+	width:30%;
+}
+#cta-container{
+	color:#fff; 
+	position:relative; 
+	width:100%; 
+	text-align:center; 
+	z-index:118;
+}

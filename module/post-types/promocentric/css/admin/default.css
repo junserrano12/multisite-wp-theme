@@ -1,0 +1,27 @@
+.promo-group{
+	display:none;
+	margin-bottom: 40px;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+.promo-group .control-wrapper{
+	margin-bottom: 10px;
+}
+.promo-group > a{
+	float:right;
+	position:relative;
+	z-index: 9;
+}
+
+.promo-group input,
+.promo-group textarea{
+	width: 100%;
+}
+.promo-group label{
+	display:inline-block;
+	width:20%;
+}
+.promo-image-holder img{
+	margin-right:5px;
+	margin-top:5px;
+}

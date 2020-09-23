@@ -1,0 +1,106 @@
+.list-item-container {
+    margin-bottom: 20px;
+
+    &:after, .clear {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .add-item {
+        display: inline-block;
+        position: relative;
+    }
+
+
+    .item-lists {
+        width: 29%;
+        display: inline-block;
+        float: left;
+
+        &.full-width {
+            width: 100%;
+        }
+
+        .item {
+            margin-bottom: 1px;
+
+            .field-title-container {
+                border: 1px solid #ccc;
+                padding: 5px 10px;
+                margin-bottom: 0;
+
+                &.active {
+                    background: #ccc;
+                    color: $white;
+                }
+            }
+
+            .field-content-container {
+                display: none;
+            }
+        }
+    }
+
+    .item-display {
+        width: 69%;
+        top: -56px;
+        position: relative;
+        display: inline-block;
+        float: right;
+
+        .item {
+            border: 1px solid #ccc;
+
+            .field-title-container {
+                background: #ccc;
+                padding: 5px 10px;
+                margin-bottom: 0;
+            }
+
+            .field-content-container {
+                padding: 10px;
+
+            }
+
+        }
+
+    }
+
+
+    &.list-item-container-simple {
+        .add-item-simple {
+            margin-top: 1em;
+            display: inline-block;
+            position: relative;
+        }
+
+        .item-lists-simple {
+            width: auto;
+            display: block;
+            float: none;
+
+            .item {
+                margin-bottom: 1px;
+
+                .field-title-container {
+                    background: #ccc;
+                    border: 1px solid #ccc;
+                    padding: 5px 10px;
+                    margin-bottom: 0;
+
+                    &.active {
+                        background: #ccc;
+                        color: $white;
+                    }
+                }
+
+                .field-content-container {
+                    padding: 1em;
+                    border: 1px solid #ccc;
+                    display: block;
+                }
+            }
+        }
+    }
+}

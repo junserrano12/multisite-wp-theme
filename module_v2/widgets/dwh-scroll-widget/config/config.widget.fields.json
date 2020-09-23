@@ -1,0 +1,23 @@
+[
+	{
+		"id" 			: "dwh-scroll-widget-container",
+		"title" 		: "",
+		"repeater" 		: false,
+		"description"	: "",
+		"class" 		: "",
+		"fields" 		: [								
+								{
+									"id"			: "caption",
+									"type" 			: "text",
+									"label"         : "Caption",
+									"value" 		: ""
+							  	},
+								{
+									"id"			: "displayinfront",
+									"type" 			: "checkbox",
+									"label"         : "Display in Front Page Only",
+									"value" 		: ""
+							  	}
+						  ]
+	}
+]

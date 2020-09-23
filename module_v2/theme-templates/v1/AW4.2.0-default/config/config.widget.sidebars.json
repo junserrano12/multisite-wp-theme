@@ -1,0 +1,42 @@
+[
+    {
+        "id"            : "header-container-content",
+        "name"          : "Header Content",
+        "description"   : "Header Content"
+    },
+    {
+        "id"            : "main-container-top",
+        "name"          : "Main Container Top",
+        "description"   : "Main Container Top"
+    },
+    {
+        "id"            : "main-container-bottom",
+        "name"          : "Main Container Bottom",
+        "description"   : "Main Container Bottom"
+    },
+    {
+        "id"			 : "sidebar-container-content",
+        "name"			 : "Sidebar Content",
+        "description"	 : "Sidebar Content"
+    },
+    {
+        "id"			 : "primary-header-content",
+        "name"			 : "Primary Header Content",
+        "description"	 : "Primary Header Content"
+    },
+    {
+        "id"			 : "primary-footer-content",
+        "name"			 : "Primary Footer Content",
+        "description"	 : "Primary Footer Content"
+    },
+    {
+        "id"			 : "slider-container-content",
+        "name"			 : "Slider Content",
+        "description"	 : "Slider Content"
+    },
+    {
+        "id"			 : "footer-container-content",
+        "name"			 : "Footer Content",
+        "description"	 : "Footer Content"
+    }
+]

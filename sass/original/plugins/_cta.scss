@@ -1,0 +1,34 @@
+/*CTA*/
+.cta-container {color:inherit; z-index: 150;}
+    .cta-container .cta{margin:10px 0;}
+        .cta-container .control-wrapper{display:inline-block; position:relative; width:auto; margin:0 10px; padding:10px 0; vertical-align:middle;}
+        .cta-container .control-wrapper:after{content:''; display:block; position:relative; clear:both;}
+        .cta-container .cta-title-container{text-align:center;}
+        .cta-container .cta-title-container h3{display:inline-block; margin:0; text-align:center; color:inherit; font-weight:bold;}
+        .cta-container .cta-title-container h3 a.bpglinksmall{font-weight:bold; font-color:inherit;}
+        .cta-container .cta-title-container a{text-decoration:none; color:inherit;}
+        .cta-container .cta-inclusions-container{padding:0;}
+        .cta-container .cta-inclusions-container .list-bullet{margin:0; text-align: center;}
+        .cta-container .cta-moc-container{width:120px; margin:0 auto;}
+        .cta-container .cta-moc-container p{margin:0; text-align:center;}
+        .cta-container .cta-moc-container .ctamodify{text-decoration:underline; color:inherit;}
+        .cta-container .cta-moc-container .ctamodify:hover{text-decoration: none;}
+        .cta-container .calendar-label{width:auto; display:inline-block; position:relative; min-width:65px; text-align:left;}
+        .cta-container .calendar-input{width:auto; display:inline-block; position:relative;}
+        .cta-container .text_reserve{padding:4px 2px;}
+
+        .sub-promo-details .cta-calendar-container{position:relative; width:auto; margin-bottom: 5px;}
+            .sub-promo-details .calendar-label{display:inline-block; position:relative; text-align:center; min-width:91px; width: auto; }
+			.sub-promo-details .calendar-input{display:inline-block; position:relative; padding:5px 2px; border: 1px solid #808080; width: auto; }
+         .sub-promo-details .cta-button-container{display:block; width:auto; margin:5px auto; text-align:center;}
+    		.sub-promo-details .ctapromobutton{padding:10px; width:98%;}
+    		.sub-promo-details .ctaexpiredbutton{background: #666; color: #fff !important; }
+
+/* cta links */
+.ctalink {color:inherit;}
+.ctalink:hover {color:#ea9b1d;}
+
+
+@media (max-width: 767.98px) {
+    .cta-container .text_reserve{font-size: 16px; height: auto; width: auto;}
+}

@@ -1,0 +1,76 @@
+/*temporary css style*/
+input.dwh-default-checkbox{
+	display:none;
+}
+input.dwh-default-checkbox + label{
+	cursor: pointer;
+    text-indent: -9999px;
+    width: 50px;
+    height: 30px;
+    background: #ccc;
+    display: block;
+    position: relative;
+    border-radius: 100px;
+}
+input.dwh-default-checkbox + label:after{
+	content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+input.dwh-default-checkbox:checked + label{
+    background: #bada55;
+    text-indent: -9999px;
+}
+input.dwh-default-checkbox:checked + label:after{
+    left: 25px;
+}
+
+.button.button-delete {
+    background: #ff3333;
+    color: #ffffff;
+    width: 145px;
+    display: block;
+    position: relative;
+    text-align: center;
+    height: 28px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.button.button-delete:hover {
+    background: #ff1010;
+    color: #fff;
+}
+
+#dwh-migrate-option .clearfix:after {
+    content: '';
+    display: block;
+    position: relative;
+    clear: both;
+}
+
+#dwh-migrate-option .field-option {
+    display: inline-block;
+    position: relative;
+    width: calc(31.33% - 2px);
+    padding: 20px;
+    float: left;
+    border: 1px solid #ccc;
+    margin-right: 1.5%;
+    min-height: 80px;
+}
+
+#dwh-migrate-option .field-title {
+    margin: 0 0 1em;
+    font-size: 16px;
+}
+
+#dwh-migrate-option .field-option:last-child {
+    margin-right: 0;
+}

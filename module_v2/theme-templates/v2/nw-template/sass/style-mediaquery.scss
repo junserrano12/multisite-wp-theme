@@ -1,0 +1,112 @@
+@import "v2/base/_variables.scss";
+@import "v2/base/_mixins.scss";
+
+@include breakpoint(md) {
+    #cta-container {
+        left: -webkit-calc( -webkit-calc( 100% - 940px ) / 2 );
+        left: -moz-calc( -moz-calc( 100% - 940px ) / 2 );
+        left: calc( calc( 100% - 940px ) / 2 );
+    }
+}
+
+@include breakpoint(sm) {
+    #header {
+        position: relative;
+        display: block;
+        top: auto;
+        left: auto;
+    }
+
+    #cta-container {
+        left: -webkit-calc( -webkit-calc( 100% - 720px ) / 2 );
+        left: -moz-calc( -moz-calc( 100% - 720px ) / 2 );
+        left: calc( calc( 100% - 720px ) / 2 );
+    }
+}
+
+@include breakpoint(xs) {
+    #header {
+        padding: 0;
+    }
+
+    #main {
+        #main-container {
+            margin: 0 20px 20px;
+        }
+    }
+
+    #logo-container {
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+
+    #google-translate-container {
+        display: block;
+        position: relative;
+        right: auto;
+        text-align: right;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    #main-menu-container {
+        display: block;
+        position: relative;
+        right: auto;
+        bottom: auto;
+        background: #333;
+
+        &:before {
+            content: 'Menu';
+            color: $white;
+            display: block;
+            position: relative;
+            top: 0;
+            width: 100%;
+            left: 0;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        #main-menu-icon {
+            position: absolute;
+            top: 0;
+            right: 5px;
+
+            &.cross {
+                background: $black;
+                position: fixed;
+                top: 10px;
+                right: 10px;
+                z-index: 10;
+            }
+        }
+
+        #main-menu {
+            background: #eee;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            padding-top: 50px;
+
+            .menu {
+                li {
+                    padding: 0;
+                    a {
+                        padding: 20px 0;
+                    }
+                }
+            }
+        }
+    }
+
+    #cta-container {
+        left: auto;
+        bottom: auto;
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+}

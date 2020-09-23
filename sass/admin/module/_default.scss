@@ -1,0 +1,29 @@
+.dwh-font-upload-response{
+	display:block;
+}
+.font-upload-attr-container{
+	display:inline-block;
+	
+	label{
+		display:block;
+	}
+	input{
+		width: 250px;
+	}
+}
+.font-upload-error-msg{
+	padding: 10px;
+    background: #f74040;
+    color: #fff;
+}
+.font-upload-success-msg{
+	padding: 10px;
+    background: #40A001;
+    color: #fff;
+}
+.font-upload-err-field{
+	border:solid 1px #f74040 !important;
+}
+.btn-upload-font{
+	margin-bottom:20px !important;
+}

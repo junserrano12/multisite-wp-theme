@@ -1,0 +1,154 @@
+[
+    {
+        "containers"    : [
+                            {
+                                "id"            : "onetheme-customize-option-container-0",
+                                "title"         : "General",
+                                "fields"        : [
+                                                    {
+                                                        "id"            : "logo",
+                                                        "label"         : "Hotel Logo",
+                                                        "type"          : "upload",
+                                                        "class"         : "col-narrow",
+                                                        "description"   : "Set Logo"
+                                                    },
+                                                    {
+                                                        "id"            : "favicon",
+                                                        "label"         : "Favicon",
+                                                        "class"         : "col-narrow",
+                                                        "type"          : "upload",
+                                                        "description"   : "Set Favicon"
+                                                    },
+                                                    {
+                                                        "id"            : "banner",
+                                                        "label"         : "Default Banner",
+                                                        "type"          : "upload",
+                                                        "class"         : "col-narrow last-col",
+                                                        "description"   : "Set Default Banner"
+                                                    }
+                                                  ]
+                            },
+                            {
+                                "id"            : "onetheme-customize-option-container-1",
+                                "title"         : "Theme Layout",
+                                "fields"        : [
+                                                    {
+                                                        "id"            : "theme-layout",
+                                                        "label"         : "Choose your website layout",
+                                                        "class"         : "clear",
+                                                        "type"          : "theme-layout",
+                                                        "default_value" : "blank-template"
+                                                    }
+                                                  ]
+                            },
+                            {
+                                "id"            : "onetheme-customize-option-container-2",
+                                "title"         : "Custom CSS",
+                                "fields"        : [
+                                                    {
+                                                        "id"            : "defer-stylesheet",
+                                                        "altlabel"      : "Optimize CSS",
+                                                        "label"         : "Defer CSS",
+                                                        "type"          : "checkbox",
+                                                        "description"   : "defer css to load css after page load (fix render blocking styles)",
+                                                        "inputclass"    : "checkbox-switch",
+                                                        "class"         : "col-block-narrow group-top"
+                                                    },
+                                                    {
+                                                        "id"            : "above-the-fold-css",
+                                                        "label"         : "Above the Fold CSS",
+                                                        "class"         : "group-bottom",
+                                                        "type"          : "textarea-reset",
+                                                        "inputclass"    : "dwh-cm-textarea dwh-cm-textarea-src CodeMirror-foldgutter",
+                                                        "resetitem"     : true,
+                                                        "description"   : "Site level: Add your Above the Fold CSS rules here.",
+                                                        "data"          : {
+                                                                            "path"     : "get_template_directory()/module_v2/theme-templates/dwh_get_theme_template()/dwh_get_theme_layout()/sass/",
+                                                                            "file"     : "style-above-the-fold",
+                                                                            "extension": "scss"
+                                                                          }
+                                                    },
+                                                    {
+                                                        "id"            : "main-css",
+                                                        "label"         : "Custom Main CSS",
+                                                        "type"          : "textarea-reset",
+                                                        "class"         : "group-top",
+                                                        "inputclass"    : "dwh-cm-textarea dwh-cm-textarea-src CodeMirror-foldgutter",
+                                                        "resetitem"     : true,
+                                                        "description"   : "Site level: Add your custom Main CSS rules here.",
+                                                        "data"          : {
+                                                                            "path"     : "get_template_directory()/module_v2/theme-templates/dwh_get_theme_template()/dwh_get_theme_layout()/sass/",
+                                                                            "file"     : "style-main",
+                                                                            "extension": "scss"
+                                                                          }
+                                                    },
+                                                    {
+                                                        "id"            : "media-query-css",
+                                                        "label"         : "Custom Media Query CSS",
+                                                        "type"          : "textarea-reset",
+                                                        "class"         : "group-bottom",
+                                                        "inputclass"    : "dwh-cm-textarea dwh-cm-textarea-src CodeMirror-foldgutter",
+                                                        "resetitem"     : true,
+                                                        "description"   : "Site level: Add your custom Media Query CSS rules here.",
+                                                        "data"          : {
+                                                                            "path"     : "get_template_directory()/module_v2/theme-templates/dwh_get_theme_template()/dwh_get_theme_layout()/sass/",
+                                                                            "file"     : "style-mediaquery",
+                                                                            "extension": "scss"
+                                                                          }
+                                                    }
+                                                  ]
+                            },
+                            {
+                                "id"            : "onetheme-customize-option-container-3",
+                                "title"         : "Custom Fonts",
+                                "fields"        : [
+                                                    {
+                                                        "id"            : "upload-fonts",
+                                                        "label"         : "Upload Fonts",
+                                                        "type"          : "upload-fonts",
+                                                        "inputclass"    : "field-upload-fonts"
+                                                    },
+                                                    {
+                                                        "id"            : "fonts",
+                                                        "label"         : "Custom Fonts",
+                                                        "type"          : "font",
+                                                        "repeater"      : true
+                                                    }
+                                                  ]
+                            },
+                            {
+                                "id"            : "onetheme-customize-option-container-4",
+                                "title"         : "CTA Settings",
+                                "fields"        : [
+                                                    {
+                                                        "id"            : "cta-layout",
+                                                        "label"         : "Call to Action Layout",
+                                                        "type"          : "textarea-reset",
+                                                        "class"         : "group-top",
+                                                        "inputclass"    : "dwh-cm-textarea",
+                                                        "resetitem"     : true,
+                                                        "data"          : {
+                                                                            "path"     : "get_template_directory()/module_v2/shortcodes/dwh-cta-shortcode/template/",
+                                                                            "file"     : "cta",
+                                                                            "extension": "tpl"
+                                                                          },
+                                                        "description"   : "Customize the layout of the CTA container by changing the shortcode's position and adding additional markup. use:<div class=\"row\"><div class=\"col-narrow normal\">[cta_calendar]<br>[cta_calendar placeholder]<br>[cta_modify_cancel]<br><span class=\"hide\">[cta_calendar multiview]</span></div><div class=\"col-narrow normal\">[cta_select_properties]<br>[cta_promocode]<br>[cta_promocode placeholder]</div><div class=\"col-narrow normal\">[cta_button]<br>[cta_mobile_button]</div></div>"
+                                                    },
+                                                    {
+                                                        "id"            : "cta-label",
+                                                        "label"         : "Call to Action Labels",
+                                                        "type"          : "cta-label",
+                                                        "class"         : "group-bottom"
+                                                    },
+                                                    {
+                                                        "id"            : "cta-bpg",
+                                                        "label"         : "Call to Action Best Price Guarantee",
+                                                        "type"          : "bpg",
+                                                        "description"   : "Customize the Best Price Guarantee Field",
+                                                        "class"         : "group-all"
+                                                    }
+                                                  ]
+                            }
+                          ]
+    }
+]

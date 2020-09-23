@@ -1,0 +1,45 @@
+[
+	{
+		"id" 			: "dwh-splash-widget-container",
+		"title" 		: "",
+		"repeater" 		: false,
+		"description"	: "",
+		"class" 		: "",
+		"fields" 		: [
+								{
+									"id"			: "title",
+									"type" 			: "text",
+									"label" 		: "Title",
+									"value" 		: "",
+									"mediabutton"   : false
+							  	},
+								{
+									"id"			: "content",
+									"type" 			: "textarea",
+									"label" 		: "Content",
+									"rows" 			: 10,
+									"value" 		: "",
+									"mediabutton"   : true
+							  	},
+								{
+									"id"			: "disable",
+									"type" 			: "checkbox",
+									"label" 		: "Disable",
+									"label" 		: "Disable",
+									"value"         : 0
+							  	},
+								{
+									"id"			: "show_only_once",
+									"type" 			: "checkbox",
+									"label" 		: "Show Only Once",
+									"value"         : 0
+							  	},
+								{
+									"id"			: "show_inner_pages",
+									"type" 			: "checkbox",
+									"label" 		: "Show on inner pages Only",
+									"value"         : 0
+							  	}
+						  ]
+	}
+]

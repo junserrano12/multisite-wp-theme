@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "futura";
+    font-style: normal;
+    src: url("futuran-webfont.eot?#iefix") format("embedded-opentype"), 
+    	 url("futuran-webfont.woff") format("woff"), 
+    	 url("futuran-webfont.ttf") format("truetype"), 
+    	 url("futuran-webfont.svg#webfontregular") format("svg");
+}

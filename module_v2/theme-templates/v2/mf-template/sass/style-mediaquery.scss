@@ -1,0 +1,122 @@
+@import "v2/base/_variables.scss";
+@import "v2/base/_mixins.scss";
+
+@include media-breakpoint-up(md) {
+    #menu {
+        display: block;
+        position: relative;
+        top: auto;
+        right: auto;
+        z-index: 20;
+    }
+
+    #banner {
+        margin-bottom: 20px;
+    }
+
+    #footer {
+        margin-bottom: 0;
+    }
+
+    #logo-cta {
+        position: absolute;
+        text-align: center;
+        background: $white;
+        margin-left: 0;
+        bottom: 5%;
+        left: -webkit-calc( -webkit-calc( 100% - 720px ) / 2 );
+        left: -moz-calc( -moz-calc( 100% - 720px ) / 2 );
+        left: calc( calc( 100% - 720px ) / 2 );
+        z-index: 10;
+    }
+
+    #main-menu-container {
+        #main-menu {
+            top: auto;
+            left: auto;
+            position: relative;
+            height: auto;
+            padding: 10px 0;
+
+            .menu {
+                text-align: center;
+                li {
+                    display: inline-block;
+                    a {
+                        padding: 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    #main {
+        #main-container {
+            margin: 0 auto;
+        }
+    }
+
+    #logo-container {
+        padding-top: 20px;
+        position: relative;
+        bottom: auto;
+        left: auto;
+        margin: 0 auto;
+        .logo {
+            background: none;
+            height: auto;
+            width: auto;
+            line-height: 1;
+            @include border-radius(0);
+        }
+    }
+
+    #cta-container {
+        display: block;
+        position: relative;
+        bottom: auto;
+        text-align: center;
+        padding: 15px;
+        z-index: 50;
+        width: 100%;
+        background: $white;
+
+
+        .control-wrapper {
+            display: block;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+
+    #logo-cta {
+        bottom: 10%;
+        left: -webkit-calc( -webkit-calc( 100% - 940px ) / 2 );
+        left: -moz-calc( -moz-calc( 100% - 940px ) / 2 );
+        left: calc( calc( 100% - 940px ) / 2 );
+    }
+
+}
+
+@include media-breakpoint-up(xl) {
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    #logo-cta {
+        left: -webkit-calc( -webkit-calc( 100% - 1140px ) / 2 );
+        left: -moz-calc( -moz-calc( 100% - 1140px ) / 2 );
+        left: calc( calc( 100% - 1140px ) / 2 );
+    }
+
+    #main-menu-container {
+        #main-menu {
+            padding: 20px 0;
+        }
+    }
+}

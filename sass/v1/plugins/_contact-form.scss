@@ -1,0 +1,33 @@
+/*CONTACT FORM*/
+.dwh-form{display:block; position:relative; width:100%;}
+    .dwh-form .control-wrapper{display:block; position:relative; margin-bottom:5px; width:100%; height:auto;  }
+    .dwh-form .control-wrapper:after{content:'';  display:block; clear:both;}
+    .dwh-form label{display:block; position:relative;}
+    .dwh-form select{width:99%; height:30px; display:block; position:relative; border:1px solid #777; background:#ffffff; padding:2px 1%; line-height:20px;}
+    .dwh-form input[type="text"], 
+    .dwh-form input[type="email"], 
+    .dwh-form input[type="tel"], 
+    .dwh-form input[type="number"], 
+    .dwh-form input[type="date"]{display:block; position:relative; width:97%; border:1px solid #777; background:#ffffff; padding:2px 1%; height:20px; line-height:20px;}
+    .dwh-form input[type="number"], 
+    .dwh-form input[type="date"]{width:33%;}
+    .dwh-form textarea{display:block; position:relative; width:97%; height:100px; border:1px solid #777; padding:2px 1%; background:#ffffff; }
+    .dwh-form input[type=submit]{display:block; position:relative; width:20%; border:1px solid #777; background:#252525; padding:5px; text-align:center; color:#ffffff; text-transform:uppercase; float:right; cursor:pointer; font-weight:bold; margin-top:5px; }
+
+.wpcf7-form{display:block; position:relative; width:100%;}
+    .wpcf7-form .control-wrapper{display:block; position:relative; margin-bottom:5px; width:100%; height:auto; margin-bottom:1em;}
+    .wpcf7-form .control-wrapper:after{content:'';  display:block; clear:both;}
+    .wpcf7-form-control-wrap{display:block;}
+    .wpcf7-form label{display:block; position:relative;}
+    .wpcf7-form select{width:99%; height:30px; display:block; position:relative; border:1px solid #777; background:#ffffff; padding:2px 1%; line-height:20px;}
+    .wpcf7-form input[type="text"], 
+    .wpcf7-form input[type="email"], 
+    .wpcf7-form input[type="tel"], 
+    .wpcf7-form input[type="number"], 
+    .wpcf7-form input[type="date"]{display:block; position:relative; width:97%; border:1px solid #777; background:#ffffff; padding:2px 1%; height:20px; line-height:20px;}
+    .wpcf7-form input[type="number"], 
+    .wpcf7-form input[type="date"]{width:33%;}
+    .wpcf7-form .wpcf7-list-item{display:block; position:relative; margin-bottom:0.5em;}
+    .wpcf7-form textarea{display:block; position:relative; width:97%; height:100px; border:1px solid #777; padding:2px 1%; background:#ffffff; }
+    .wpcf7-form input[type=submit]{display:block; position:relative; width:20%; border:1px solid #777; background:#252525; padding:5px; text-align:center; color:#ffffff; text-transform:uppercase; float:right; cursor:pointer; font-weight:bold; margin-top:5px; }
+

@@ -1,0 +1,56 @@
+@media (max-width:1366px) {
+    .content{width:940px;}
+}
+@media(max-width:1199px) {
+}
+@media (max-width: 979px) {
+    body{font-size:12px;}
+    .large, h1{font-size:1.333em; margin-bottom:1em;}
+    .medium, h2{font-size:1.167em; margin-bottom:0.5em;}
+    .normal, h3{font-size:1.083em; margin-bottom:0.5em;}
+    h4, h5, h6{font-size:1em;}
+    .content{width:718px;}
+    #sidebar{width:310px;}
+    #primary{width:400px}
+}
+@media (max-width: 767px) {
+    .content{width:500px;}
+    #main-container{padding:0;}
+    #sidebar{width:auto; float:none; margin:0; padding-bottom:1em; position:relative;}
+    #primary{width:auto; float:none; margin:0 0 1em;}
+        #primary-header{position:absolute; top:0; left:0; z-index:100;}
+        #main-menu{position:relative; background:#d6d6d6; display:block; width:100%; margin:0 auto;}
+            #main-menu ul li{display:block; position:relative; text-align:center;}
+                #main-menu .sub-menu{position:relative;}
+                   #main-menu .sub-menu li a{text-align: center;}
+
+    #slider, #carousel{margin-bottom:0;}
+    #slider .image-container{width:100%;}
+    #carousel{display:none;}
+    #footer .copyright{float:none; width:auto;}
+    .image-container{width:300px; margin:0 auto 1em;}
+    .visible-layer{display:none;}
+    .hide-layer{display:block;}
+    .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
+    .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
+    .bpg{ width:185px; }
+	#cta-container .control-wrapper {
+		// width: 100%;
+	}
+	#cta-container .control-wrapper.cta-inclusions-container {
+		width: auto;
+	}
+}
+@media (max-width:570px) {
+    #header-container{display:none;}
+    #primary-header{position:fixed;}
+    .bpgmodal-content{height:360px;}
+    #bpgmodal h2{font-size:1.231em;}
+    .bpgtip #bpgtipcontent{top: 30px; left: -180px;}
+    #bpgtipcontent:after{width: 0; height: 0; border-color:transparent transparent #E0C48F transparent; left: 175px; top: -24px; border-color: transparent transparent #E0C48F transparent;}
+    .content{width:320px;}
+    .image-container{width:auto;}
+}
+@media (max-width: 480px) {
+    .content{width:280px;}
+}

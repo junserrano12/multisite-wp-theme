@@ -1,0 +1,32 @@
+[
+    {
+        "handle"    : "aw-plugin",
+        "src"       : "dwh_get_main_directory_uri()/css/plugin-v1.css",
+        "ver"       : "1.2.2",
+        "media"     : "all"
+    },
+    {
+        "handle"    : "aw-main",
+        "src"       : "dwh_get_theme_template_uri()/css/style-main.css",
+        "ver"       : "1.2.2",
+        "media"     : "all"
+    },
+    {
+       "handle"     : "aw-main",
+       "option"     : "onetheme_customizer_options",
+       "field"      : "main-css",
+       "inline"     : true
+    },
+    {
+        "handle"    : "aw-main-mq",
+        "src"       : "dwh_get_theme_template_uri()/css/style-mediaquery.css",
+        "ver"       : "1.2.2",
+        "media"     : "all"
+    },
+    {
+       "handle"     : "aw-main-mq",
+       "option"     : "onetheme_customizer_options",
+       "field"      : "media-query-css",
+       "inline"     : true
+    }
+]

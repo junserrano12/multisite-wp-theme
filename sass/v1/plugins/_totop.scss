@@ -1,0 +1,4 @@
+/*TO TOP*/
+a#toTop {text-decoration:none; position:fixed; bottom:10px; right:10px; overflow:hidden; width:51px; height:51px; border:none; text-indent:100%; background:url(../images/arrows.png) no-repeat right top transparent; filter:alpha(opacity=80); -moz-opacity: 0.8; opacity: 0.8; z-index:1000;}
+a#toTop:hover {background-position:right bottom;}
+a#toTop:active, #toTop:focus {outline:none;}

@@ -1,0 +1,19 @@
+[
+    {
+        "handle"    : "aw-plugin",
+        "src"       : "dwh_get_main_directory_uri()/css/plugin-v2.css",
+        "media"     : "all"
+    },
+    {
+       "handle"     : "aw-plugin",
+       "option"     : "onetheme_customizer_options",
+       "field"      : "main-css",
+       "inline"     : true
+    },
+    {
+       "handle"     : "aw-plugin",
+       "option"     : "onetheme_customizer_options",
+       "field"      : "media-query-css",
+       "inline"     : true
+    }
+]

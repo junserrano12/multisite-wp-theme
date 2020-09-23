@@ -1,0 +1,80 @@
+@import "v2/base/_variables.scss";
+@import "v2/base/_mixins.scss";
+@import "v2/base/_reset.scss";
+@import "v2/base/_content.scss";
+@import "v2/base/_default.scss";
+
+#header {
+    padding: 10px 20px;
+    #header-container {
+        #google-translate-container{
+            text-align: right;
+        }
+    }
+}
+
+#main {
+    margin-bottom: 20px;
+
+    #main-container {
+        #sidebar {
+            width: 310px;
+            float: left;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #primary {
+            width: -webkit-calc( 100% - 310px );
+            width: -moz-calc( 100% - 310px );
+            width: calc( 100% - 310px );
+            display: inline-block;
+            float: right;
+
+            #main-menu-container {
+                #main-menu {
+                    .menu {
+                        li {
+                            display: inline-block;
+                            float: left;
+                        }
+                    }
+                }
+            }
+
+            #main-banner-container {
+                margin-bottom: 20px;
+                overflow: hidden;
+            }
+
+            #primary-container {
+                padding: 0 20px;
+                margin-bottom: 20px;
+
+                .entry-header {
+                    margin-bottom: 10px;
+                }
+
+                .entry-content {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        &:after {
+            content: '';
+            display: block;
+            position: relative;
+            clear: both;
+        }
+    }
+}
+
+#footer {
+    background: #ccc;
+    padding: 10px 20px;
+
+    #footer-container {
+        text-align: center;
+    }
+}

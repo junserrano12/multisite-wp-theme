@@ -1,0 +1,21 @@
+[
+    {
+        "option_name"   : "onetheme_settings",
+        "option_id"     : "onetheme-settings",
+        "containers"    : [
+                            {
+                                "id"            : "onetheme-settings-container-0",
+                                "fields"        : [
+                                                    {
+                                                        "id"            : "theme-default",
+                                                        "label"         : "Theme Default",
+                                                        "type"          : "text",
+                                                        "mediabutton"   : false,
+                                                        "value"         : "",
+                                                        "description"   : ""
+                                                    }
+                                                  ]
+                            }
+                          ]
+    }
+]

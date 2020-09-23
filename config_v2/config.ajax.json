@@ -1,0 +1,15 @@
+[
+    {
+        "action"        : "dwh-upload-fonts"
+    },
+	{
+        "action"        : "dwh-save-custom-reservation-ibeurl",
+        "nopriv"        : true
+    },
+    {
+        "action"        : "dwh-reset-textarea-default-content"
+    },
+    {
+        "action"        : "dwh-update-theme-layout-css-fields"
+    }
+]

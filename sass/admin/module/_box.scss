@@ -1,0 +1,54 @@
+.box-container {
+    .container-header {
+        display: block;
+        position: relative;
+
+        .title {
+            margin-bottom: 15px;
+        }
+    }
+
+    .container-content {
+        display: block;
+        position: relative;
+
+        .container-content-item {
+            margin-bottom: 20px;
+        }
+    }
+
+
+    &.bordered-box-container {
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 1em;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &.custom-meta-box-container {
+
+        }
+
+        &.theme-option-box-container {
+            .field-title-container {
+                margin-bottom: 0;
+                background: #ccc;
+                padding: 5px 10px;
+            }
+
+            .field-content-container {
+                padding: 10px;
+            }
+        }
+    }
+
+    &.empty-box-container {
+        padding: 2em 0;
+        display: block;
+        text-align: center;
+        font-size: 2em;
+        border: 2px dashed rgba($black, 0.5);
+    }
+}

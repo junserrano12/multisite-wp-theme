@@ -1,0 +1,57 @@
+[
+    {
+        "id"          : "header-container-top",
+        "name"        : "Header Container Top",
+        "description" : "Header Container Top"
+    },
+    {
+        "id"          : "header-container-content",
+        "name"        : "Header Content",
+        "description" : "Header Content"
+    },
+    {
+        "id"          : "header-container-bottom",
+        "name"        : "Header Container Bottom",
+        "description" : "Header Container Bottom"
+    },
+    {
+        "id"          : "slider-container-top",
+        "name"        : "Slider Container Top",
+        "description" : "Slider Container Top"
+    },
+    {
+        "id"          : "slider-container-content",
+        "name"        : "Slider Content",
+        "description" : "Slider Content"
+    },
+    {
+        "id"          : "slider-container-bottom",
+        "name"        : "Slider Container Bottom",
+        "description" : "Slider Container Bottom"
+    },
+    {
+        "id"          : "main-container-top",
+        "name"        : "Main Container Top",
+        "description" : "Main Container Top"
+    },
+    {
+        "id"          : "main-container-bottom",
+        "name"        : "Main Container Bottom",
+        "description" : "Main Container Bottom"
+    },
+    {
+        "id"          : "footer-container-top",
+        "name"        : "Footer Container Top",
+        "description" : "Footer Container Top"
+    },
+    {
+        "id"          : "footer-container-content",
+        "name"        : "Footer Content",
+        "description" : "Footer Content"
+    },
+    {
+        "id"          : "footer-container-bottom",
+        "name"        : "Footer Container Bottom",
+        "description" : "Footer Container Bottom"
+    }
+]

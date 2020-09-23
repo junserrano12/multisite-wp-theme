@@ -1,0 +1,172 @@
+[
+    {
+        "containers"    : [
+                            {
+                                "id"            : "onetheme-site-option-container-0",
+                                "title"         : "Indexing",
+                                "fields"        : [
+                                                    {
+                                                        "id"            : "sitemaps-controller",
+                                                        "altlabel"      : "XML Sitemap Controller",
+                                                        "type"          : "checkbox",
+                                                        "label"         : "Override the default xml sitemap",
+                                                        "inputclass"    : "checkbox-switch",
+                                                        "class"         : "group-top"
+                                                    },
+                                                    {
+                                                        "id"            : "sitemaps",
+                                                        "label"         : "XML Sitemap",
+                                                        "type"          : "textarea",
+                                                        "inputclass"    : "dwh-cm-textarea",
+                                                        "mediabutton"   : false,
+                                                        "description"   : "Enter custom XML sitemap code. <a href=\"..\\sitemap.xml\" target=\"_blank\">view sitemap.xml</a>",
+                                                        "class"         : "group-bottom"
+                                                    },
+                                                    {
+                                                        "id"            : "robots",
+                                                        "label"         : "Robots",
+                                                        "type"          : "textarea",
+                                                        "inputclass"    : "dwh-cm-textarea",
+                                                        "mediabutton"   : false,
+                                                        "description"   : "Enter additional rules to robots.txt <a href=\"..\\robots.txt\" target=\"_blank\">view robots.txt</a>",
+                                                        "class"         : "group-all"
+                                                    }
+                                                  ]
+                            },
+                            {
+                                "id"            : "onetheme-site-option-container-1",
+                                "title"         : "SEO",
+                                "description"   : "The meta tags configured here will be used on all pages. To configure page-level meta tags, go to the specific page's SEO settings",
+                                "fields"        : [
+                                                    {
+                                                        "id"            : "meta-title",
+                                                        "label"         : "Meta Title",
+                                                        "type"          : "text",
+                                                        "class"         : "margin-bottom",
+                                                        "description-x" : "Insert Meta Title Layout - leave blank to use custom page title only - ( $title $tagline )",
+                                                        "attribute"     : "placeholder=\"$title $tagline\""
+
+                                                    },
+                                                    {
+                                                        "id"            : "meta-keyword",
+                                                        "label"         : "Meta Keyword",
+                                                        "type"          : "text",
+                                                        "class"         : "margin-bottom"
+                                                    },
+                                                    {
+                                                        "id"            : "meta-description",
+                                                        "label"         : "Meta Description",
+                                                        "type"          : "textarea",
+                                                        "class"         : "margin-bottom",
+                                                        "mediabutton"   : false
+                                                    }
+                                                  ]
+                            },
+                            {
+                                "id"            : "onetheme-site-option-container-2",
+                                "title"         : "Code Snippets",
+                                "description"   : "Manage custom scripts and third party code snippet here. Select a code snippet from the list on the left to modify or delete an item",
+                                "fields"        : [
+                                                    {
+                                                        "id"            : "code-snippet",
+                                                        "label"         : "Code Snippets",
+                                                        "type"          : "code-snippet",
+                                                        "description"   : "",
+                                                        "repeater"      : true
+
+                                                    }
+                                                  ]
+                            },
+                            {
+                                "id"            : "onetheme-site-option-container-3",
+                                "title"         : "Google Settings",
+                                "description"   : "This tab is where you manage all Google integrations for this site. If Tag Manager is enabled below, use the GTM dashboard to manage integrations.",
+                                "fields"        : [
+                                                    {
+                                                        "id"            : "google-tag-manager-controller",
+                                                        "altlabel"      : "Enable Google Tag Manager",
+                                                        "type"          : "checkbox",
+                                                        "label"         : "Google Tag Manager is enabled, Enter th GTM ID below",
+                                                        "inputclass"    : "checkbox-switch",
+                                                        "class"         : "group-top col-block-narrow"
+                                                    },
+                                                    {
+                                                        "id"            : "google-tag-manager",
+                                                        "label"         : "Google Tag Manager ID",
+                                                        "type"          : "text",
+                                                        "class"         : "group-bottom",
+                                                        "description-x" : "Insert Google Tag Manager Code (GTM-XXXX-X)",
+                                                        "attribute"     : "placeholder=\"e.g. GTM-XXXX-X\""
+                                                    },
+                                                    {
+                                                        "id"            : "google-legacy-analytics",
+                                                        "label"         : "Primary Legacy Analytics ID",
+                                                        "type"          : "text",
+                                                        "class"         : "hide"
+                                                    },
+                                                    {
+
+                                                        "id"            : "google-legacy-analytics-2",
+                                                        "label"         : "Secondary Legacy Analytics ID",
+                                                        "type"          : "text",
+                                                        "class"         : "hide"
+                                                    },
+                                                    {
+                                                        "id"            : "google-universal-analytics",
+                                                        "label"         : "Primary Universal Analytics ID",
+                                                        "type"          : "text",
+                                                        "description-x" : "Insert Universal Analytics Code (UA-XXXXXX-X)",
+                                                        "attribute"     : "placeholder=\"e.g. UA-XXXXXX-1\"",
+                                                        "class"         : "group-top"
+                                                    },
+                                                    {
+                                                        "id"            : "google-universal-analytics-2",
+                                                        "label"         : "Secondary Universal Analytics ID",
+                                                        "type"          : "text",
+                                                        "description-x" : "Insert Universal Analytics Code 2 (UA-XXXXXX-X)",
+                                                        "attribute"     : "placeholder=\"e.g. UA-XXXXXX-2\"",
+                                                        "class"         : "group-bottom"
+                                                    },
+                                                    {
+                                                        "id"            : "google-remarketing",
+                                                        "label"         : "Google Remarketing ID",
+                                                        "type"          : "text",
+                                                        "description-x" : "Will enable Google Remarketing Script if this code is active",
+                                                        "attribute"     : "placeholder=\"e.g. AW-123456789\"",
+                                                        "class"         : "group-top"
+                                                    },
+                                                    {
+                                                        "id"            : "google-map-api",
+                                                        "label"         : "Google Map API Key",
+                                                        "type"          : "text",
+                                                        "attribute"     : "placeholder=\"e.g. baOfcaDcdSgScfs-cEUYLNhpTFbYnfrXj-H6qRk\"",
+                                                        "class"         : "group-middle"
+                                                    },
+                                                    {
+                                                        "id"            : "google-webmaster-tool",
+                                                        "label"         : "Google Webmaster tool",
+                                                        "type"          : "text",
+                                                        "description-x" : "Add meta tag to verify site ownership (e.g. &#60;meta name=\"google-site-verication\" content\"String_we_ask_for\"&#62;) \nReplace \"String_we_ask_for\" with your unique string from google webmaster tools",
+                                                        "attribute"     : "placeholder=\"e.g. &#60;meta name='google-site-verication' content='String_we_ask_for' \\&#62;\"",
+                                                        "class"         : "group-bottom"
+                                                    }
+                                                  ]
+                            },
+                            {
+                                "id"            : "onetheme-site-option-container-4",
+                                "title"         : "Event Trackers",
+                                "description"   : "Create new event trackers. Tracking script will be automatically appended based on the defined selector.",
+                                "fields"        : [
+                                                    {
+                                                        "id"            : "event-tracker",
+                                                        "label"         : "Event Trakers",
+                                                        "type"          : "tracker-parameter",
+                                                        "description"   : "",
+                                                        "repeater"      : true
+
+                                                    }
+                                                  ]
+                            }
+                          ]
+    }
+]

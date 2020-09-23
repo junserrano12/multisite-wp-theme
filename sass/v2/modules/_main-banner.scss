@@ -1,0 +1,48 @@
+#main-banner {
+    &.flexslider {
+
+        .slides {
+            li {
+                .slider-image-container {
+                    a {
+                        img {
+
+                        }
+                    }
+                }
+
+                .slider-image-caption {
+
+                    .slider-caption {
+                    }
+                }
+            }
+        }
+
+        .flex-direction-nav {
+            .flex-nav-prev {
+                .flex-prev {
+                    &:before {
+
+                    }
+                }
+            }
+
+            .flex-nav-next {
+                .flex-next {
+                    &:before {
+
+                    }
+                }
+            }
+        }
+
+        .flex-control-nav {
+
+        }
+    }
+
+    &.nivoslider {
+
+    }
+}

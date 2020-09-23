@@ -1,0 +1,21 @@
+[
+    {
+        "singular"              : "Collection",
+        "plural"                : "Collections",
+        "public"                : false,
+        "publicly_queryable"    : false,
+        "show_ui"               : true,
+        "show_in_menu"          : true,
+        "show_in_nav_menus"     : true,
+        "show_in_admin_bar"     : true,
+        "query_var"             : true,
+        "capability_type"       : "post",
+        "has_archive"           : false,
+        "hierarchical"          : false,
+        "menu_position"         : 5,
+        "can_export"            : true,
+        "exclude_from_search"   : true,
+        "menu_icon"             : "dashicons-images-alt",
+        "supports"              : ["editor", "title", "thumbnail", "custom-fields", "page-attributes"]
+    }
+]

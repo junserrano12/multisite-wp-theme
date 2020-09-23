@@ -1,0 +1,18 @@
+#main-menu {
+    .menu {
+        li {
+
+            > .sub-menu {
+                display: none;
+            }
+
+            &:hover {
+                > .sub-menu {
+                    display: block;
+                }
+            }
+
+
+        }
+    }
+}

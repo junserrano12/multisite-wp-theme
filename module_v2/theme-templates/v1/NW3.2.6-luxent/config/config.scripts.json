@@ -1,0 +1,7 @@
+[
+    {
+		"handle" 		: "luxent-script",
+		"src" 			: "dwh_get_theme_template_uri()/js/script.min.js",
+		"in_footer" 	: true
+	}
+]

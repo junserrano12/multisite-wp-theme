@@ -1,0 +1,146 @@
+#colorbox,
+#cboxOverlay,
+#cboxWrapper {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:9999;
+	// overflow:hidden;
+	-webkit-transform:
+	translate3d(0,0,0);
+}
+
+#cboxWrapper {
+	max-width:none;
+}
+
+#cboxOverlay {
+	background: rgba($black, 0.8);
+	position:fixed;
+	width:100%;
+	height:100%;
+}
+
+#cboxMiddleLeft,
+#cboxBottomLeft {
+	clear:left;
+}
+
+#cboxContent {
+	position:relative;
+}
+
+#cboxLoadedContent {
+	overflow:auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+#cboxTitle {
+	margin:0;
+}
+
+#cboxLoadingOverlay,
+#cboxLoadingGraphic {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#cboxPrevious,
+#cboxNext,
+#cboxClose,
+#cboxSlideshow{
+	cursor:pointer;
+
+	border:0;
+	padding:0;
+	margin:0;
+	overflow:visible;
+	text-indent:-9999px;
+	width:22px;
+	height:22px;
+	position:absolute;
+	top:-0;
+	&:active {
+		outline: 0;
+	}
+}
+
+#cboxPrevious {
+	background-position:0px -50px;
+	right:44px;
+	&:hover {
+		background-position:0px -75px;
+	}
+}
+
+#cboxNext{
+	background-position:-25px -50px;
+	right:22px;
+	&:hover {
+		background-position:-25px -75px;
+	}
+}
+
+#cboxClose{
+	background-position:-50px -50px;
+	right:0;
+	@include border-radius(0 10px 0 0);
+	&:hover {
+		background-position:-50px -75px;
+	}
+}
+
+.cboxSlideshow_on {
+	#cboxPrevious {
+		right: 66px;
+	}
+
+	#cboxSlideshow {
+		background-position:-75px -25px; right:44px;
+		&:hover {
+			background-position:-100px -25px;
+		}
+	}
+
+}
+
+.cboxSlideshow_off {
+	#cboxPrevious {
+		right:66px;
+	}
+
+	#cboxSlideshow {
+		background-position:-100px 0px; right:44px;
+		&:hover {
+			background-position:-75px -25px;
+		}
+	}
+}
+
+.cboxPhoto {
+	float:left;
+	margin:auto;
+	border:0;
+	display:block;
+	max-width:none; -ms-interpolation-mode:bicubic;
+}
+
+.cboxIframe {
+	width:100%;
+	height:100%;
+	display:block;
+	border:0;
+	padding:0;
+	margin:0;
+}
+
+#colorbox,
+#cboxContent,
+#cboxLoadedContent {
+	-webkit-box-sizing:content-box;
+   	   -moz-box-sizing:content-box;
+	        box-sizing:content-box;
+}

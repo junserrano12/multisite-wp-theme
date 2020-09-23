@@ -1,0 +1,17 @@
+[
+    {
+        "handle"    : "code-mirror",
+        "src"       : "dwh_get_main_directory_uri()/css/admin/codemirror.css",
+        "media"     : "all"
+    },
+    {
+        "handle"    : "fontawesome",
+        "src"       : "dwh_get_main_directory_uri()/css/admin/fontawesome-all.min.css",
+        "media"     : "all"
+    },
+    {
+        "handle"    : "dwh-admin-main",
+        "src"       : "dwh_get_main_directory_uri()/css/admin/main.css",
+        "media"     : "all"
+    }
+]

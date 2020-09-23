@@ -1,0 +1,192 @@
+[
+    {
+        "id"           :"dwh-page-custom-field-id",
+        "title"        :"Custom Page Options",
+        "screens"      :["page"],
+        "priority"     :"high",
+        "templates"    :["page-custom"],
+        "callback_args":[
+                            {
+                                "containers":[
+                                                {
+                                                    "id"    :"page-custom-field",
+                                                    "fields":[
+                                                                {
+                                                                    "id"         :"page-custom-style",
+                                                                    "label"      :"Custom Style",
+                                                                    "type"       :"textarea",
+                                                                    "inputclass" :"dwh-cm-textarea dwh-cm-textarea-src",
+                                                                    "description":"Custom Page Style"
+                                                                }
+                                                            ]
+                                                }
+                                            ]
+                            }
+                        ]
+    },
+    {
+        "id"           :"dwh-pages-custom-field-id",
+        "title"        :"Page Options",
+        "screens"      :["page", "post"],
+        "priority"     :"high",
+        "templates"    :["all"],
+        "callback_args":[
+                            {
+                                "containers":[
+                                                {
+                                                    "id"    :"pages-custom-field",
+                                                    "fields":[
+                                                                {
+                                                                    "id"         :"title_field",
+                                                                    "label"      :"H1",
+                                                                    "type"       :"text",
+                                                                    "value"      :"",
+                                                                    "description":"Alternative header title"
+                                                                }
+                                                            ]
+                                                }
+                                            ]
+                            }
+                        ]
+    },
+    {
+        "id"           :"dwh-slider-custom-field-id",
+        "title"        :"Slider Options",
+        "screens"      :["page"],
+        "priority"     :"high",
+        "templates"    :["all"],
+        "callback_args":[
+                            {
+                                "containers":[
+                                                {
+                                                    "id"    :"slider-custom-field",
+                                                    "title" :"Slider Settings",
+                                                    "box"   : true,
+                                                    "fields":[
+                                                                {
+                                                                    "id"   :"slider-data",
+                                                                    "type" :"slider-data",
+                                                                    "value":""
+                                                                },
+                                                                {
+                                                                    "id"      :"slider-attribute",
+                                                                    "label"   :"Slider Attributes",
+                                                                    "type"    :"slider-attribute",
+                                                                    "value"   :"",
+                                                                    "repeater": true
+                                                                }
+                                                            ]
+                                                },
+                                                {
+                                                    "id"    :"slider-custom-field-2",
+                                                    "title" :"Slider Itmes",
+                                                    "box"   : true,
+                                                    "fields":[
+                                                                {
+                                                                    "id"         :"slider-item",
+                                                                    "label"      :"Slider Items",
+                                                                    "type"       :"slider-item",
+                                                                    "value"      :"",
+                                                                    "description":"Slider Items",
+                                                                    "repeater"   : true
+                                                                }
+                                                            ]
+                                                }
+                                            ]
+                            }
+                        ]
+    },
+    {
+        "id"           :"dwh-switch-custom-field-id",
+        "title"        :"Switch Options",
+        "screens"      :["page",  "post"],
+        "context"      :"side",
+        "priority"     :"low",
+        "templates"    :["all"],
+        "callback_args":[
+                            {
+                                "containers":[
+                                                {
+                                                    "id"    :"switch-custom-field",
+                                                    "fields":[
+                                                                {
+                                                                    "id"         :"h1_display_flag",
+                                                                    "label"      :"Hide H1 Title",
+                                                                    "type"       :"checkbox",
+                                                                    "inputclass" :"checkbox-switch",
+                                                                    "value"      :"",
+                                                                    "description":"Toggle Display Page Title"
+                                                                },
+                                                                {
+                                                                    "id"         :"address_field",
+                                                                    "label"      :"Show Address",
+                                                                    "type"       :"checkbox",
+                                                                    "inputclass" :"checkbox-switch",
+                                                                    "value"      :"",
+                                                                    "description":"Toggle Display Address"
+                                                                },
+                                                                {
+                                                                    "id"         :"cta_display_flag",
+                                                                    "label"      :"Hide CTA Link",
+                                                                    "type"       :"checkbox",
+                                                                    "inputclass" :"checkbox-switch",
+                                                                    "value"      :"",
+                                                                    "description":"Toggle Display Cta Link"
+                                                                },
+                                                                {
+                                                                    "id"         :"slider_display_flag",
+                                                                    "label"      :"Hide Main Slider",
+                                                                    "type"       :"checkbox",
+                                                                    "inputclass" :"checkbox-switch",
+                                                                    "value"      :"",
+                                                                    "description":"Toggle Display Main Slider"
+                                                                }
+                                                            ]
+                                                }
+                                            ]
+                            }
+                        ]
+    },
+    {
+        "id"           :"dwh-seo-custom-field-id",
+        "title"        :"Seo Options",
+        "context"      :"advanced",
+        "priority"     :"high",
+        "templates"    :["all"],
+        "callback_args":[
+                            {
+                                "containers":[
+                                                {
+                                                    "id"    :"seo-custom-field",
+                                                    "title" :"Meta Content",
+                                                    "fields":[
+                                                                {
+                                                                    "id"         :"page_title_field",
+                                                                    "label"      :"Meta Title",
+                                                                    "type"       :"text",
+                                                                    "description":"Add Meta Title",
+                                                                    "value"      :""
+                                                                },
+                                                                {
+                                                                    "id"         :"meta_description",
+                                                                    "label"      :"Meta Description",
+                                                                    "type"       :"textarea",
+                                                                    "rows"       :3,
+                                                                    "mediabutton":false,
+                                                                    "description":"Add Meta Description",
+                                                                    "value"      :""
+                                                                },
+                                                                {
+                                                                    "id"         :"meta_keywords",
+                                                                    "label"      :"Meta Keywords",
+                                                                    "type"       :"text",
+                                                                    "description":"Add Meta Keywords",
+                                                                    "value"      :""
+                                                                }
+                                                            ]
+                                                }
+                                            ]
+                            }
+                        ]
+    }
+]

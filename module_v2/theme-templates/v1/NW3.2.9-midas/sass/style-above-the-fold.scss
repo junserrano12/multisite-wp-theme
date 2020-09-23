@@ -1,0 +1,80 @@
+@import "v1/base/_variables.scss";
+@import "v1/base/_mixins.scss";
+@import "v1/base/_reset.scss";
+@import "v1/base/_content.scss";
+@import "v1/base/_default.scss";
+
+#sidebar{
+	display: block; 
+	position: fixed; 
+	width:12%; 
+	top: 100px; 
+}
+#logo-container{
+	margin: 0 auto; 
+	text-align: center; 
+	width: 100%; 
+	margin-bottom: 1em;
+}
+#header-menu-container{
+	padding: 10px 2px; 
+}
+#main-menu-container{
+	display:block; 
+	position:relative; 
+	z-index:20; 
+	padding:1em 0;
+}
+#main-menu{
+	display:block; 
+	position:relative; 
+	width:100%;
+	
+	> ul{
+		position:relative; 
+		height:auto; 
+		width:auto; 
+		margin:0 auto; 
+		text-align:left;
+		
+		li{
+			display:block; 
+			position:relative; 
+			list-style:none; 
+			line-height: 1.8em;
+			
+			a{
+				display:block; 
+			}
+		}
+	}
+}				
+
+#cta-container{
+	position:fixed; 
+	top:0; 
+	width:100%; 
+	z-index:100; 
+	
+	.cta-content{
+		display:block; 
+		position:relative;
+		width:100%; 
+		text-align:center;
+	}
+	.cta-title-container{
+		margin:0 1em 0em 0em;
+	}
+}
+#logo-container{
+	display:block; 
+	position:relative; 
+	text-align: center;
+	
+	a{
+		display:block; 
+		position:relative;
+		
+		img{width:100%;}
+	}
+}

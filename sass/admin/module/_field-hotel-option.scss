@@ -1,0 +1,173 @@
+.box-container {
+    &#onetheme-hotel-option-container-0 {
+        min-height: 350px;
+    }
+
+    &.theme-option-box-container {
+        .container-content {
+
+            &:after {
+                content: "";
+                display: block;
+                position: relative;
+                clear: both;
+            }
+
+            .container-content-item {
+
+                &.hotel-select-type {
+                    width: 29%;
+                    position: absolute;
+                    top: 15px;
+
+                    .field-title-container {
+                        background: none;
+                    }
+                }
+
+                &.hotel-fields {
+
+                    &.hotel-group {
+
+                        .add-item {
+                            top: 125px;
+                        }
+
+                        .item-loading {
+                            top: 135px;
+                        }
+
+                        .item-lists {
+                            top: 120px;
+                            position: relative;
+                        }
+
+                        .item-display {
+
+                        }
+
+                    }
+
+                    &.hotel-single {
+                        width: 69%;
+                        float: right;
+                        border: 1px solid #ccc;
+
+                        .field-title-container {
+                            background: #ccc;
+                            padding: 5px 10px;
+                            margin-bottom: 0;
+                        }
+
+                        .field-content-container {
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+.hotel-option-container-settings {
+    background: $white;
+    .container-header {
+        h3 {
+            background: #ccc;
+            padding: 10px 15px;
+        }
+    }
+
+    .container-content {
+        display: block;
+        position: relative;
+        padding: 0;
+        min-height: 250px;
+
+        &:after {
+            content: "";
+            display: block;
+            position: relative;
+            clear: both;
+        }
+
+        > .container-content-item {
+            position: relative;
+            float: right;
+            width: 75%;
+
+            &:first-child {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 23.5%;
+            }
+
+            .field-content-container {
+                min-height: 150px;
+
+                &:after {
+                    content: '';
+                    display: block;
+                    position: relative;
+                    clear: both;
+                }
+
+                .col-hotel-field {
+                    display: inline-block;
+                    float: left;
+                    width: 49%;
+                    margin-right: 1.5%;
+
+                    .field-label {
+                        display: block;
+                    }
+
+                    &.col-hotelid-field,
+                    &.col-hotellanguage-field {
+                        width: 24%;
+                    }
+
+                    &.col-sync-subdomain-field,
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    &.col-hotelid-field {
+                        margin-right: 1%;
+                    }
+
+                    &.col-sync-subdomain-field {
+                        margin-right: 0;
+
+                        .field-hotel-sync-subdomain {
+                            width: 59%;
+                            display: inline;
+                        }
+
+                        .button-hotel-sync-subdomain {
+                            width: 19%;
+                            display: inline-block;
+                            text-align: center;
+                            background: #0073aa;
+                            color: $white;
+                        }
+
+                        .button-hotel-clear-subdomain {
+                            width: 19%;
+                            display: inline-block;
+                            text-align: center;
+                            background: #A80109;
+                            color: $white;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

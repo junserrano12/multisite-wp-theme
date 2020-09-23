@@ -1,0 +1,41 @@
+.code-snippet-checkbox-container {
+    overflow: auto;
+    margin: 0 10px;
+
+    &:after {
+        content: '';
+        display: block;
+        position: relative;
+        clear: both;
+    }
+
+    li {
+        display: inline-block;
+        float: left;
+        position: relative;
+        width: 20%;
+
+        input {
+
+        }
+
+        label {
+
+            .altlabel {
+                display: none;
+            }
+
+            &:hover {
+                .altlabel {
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    background: #ccc;
+                    padding: 3px;
+                    left: 20px;
+                    z-index: 10;
+                }
+            }
+        }
+    }
+}

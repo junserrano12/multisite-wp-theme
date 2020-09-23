@@ -1,0 +1,1 @@
+<?php dwh_load_theme_section('sidebar.php'); ?>

@@ -1,0 +1,55 @@
+@import "v1/base/_variables.scss";
+@import "v1/base/_mixins.scss";
+@import "v1/base/_reset.scss";
+@import "v1/base/_content.scss";
+@import "v1/base/_default.scss";
+
+#header{
+	display:block; 
+	position:absolute; 
+	width:100%; 
+	height:auto; 
+	z-index:130;
+}
+.cta-container .control-wrapper {
+    display: inline-block; 
+}
+
+#logo-container{
+	padding:1em;
+	.logo{
+		display:block;
+		position:relative;
+	}	
+} 						
+#main-menu{
+	> ul{
+		margin:0 auto; 
+		text-align:center;
+		font-size:0;
+		
+		li{
+			display:inline-block; 
+			font-size:1rem;
+			
+			a{
+				display:block; 
+				text-decoration:none; 
+				padding:50px 1em 25px; 
+				color:#996600;
+			}
+		}
+	}
+	.sub-menu{display:none}	
+}  
+#slider-container{
+	display:block; 
+	position:relative; 
+	width:100%; 
+}
+#cta-container{
+	position:absolute; 
+	bottom:0; 
+	width:100%; 
+	text-align: center;
+}

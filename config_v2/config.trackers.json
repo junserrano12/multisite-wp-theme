@@ -1,0 +1,67 @@
+[
+	{
+		"attribute" 	: "class",
+		"element" 		: "li",
+		"selector" 		: "ctareservation",
+		"command" 		: "send",
+		"hitType" 		: "event",
+		"eventCategory"	: "cta-click",
+		"eventAction" 	: "go-to-selectDates",
+		"eventLabel" 	: "menu-link",
+		"eventValue" 	: ""
+	},
+	{
+		"selector" 		: "cta-reservation",
+		"command" 		: "send",
+		"hitType" 		: "event",
+		"eventCategory"	: "cta-click",
+		"eventAction" 	: "go-to-selectDates",
+		"eventLabel" 	: "menu-link",
+		"eventValue" 	: ""
+	},
+	{
+		"selector" 		: "cta-button",
+		"command" 		: "send",
+		"hitType" 		: "event",
+		"eventCategory"	: "cta-click",
+		"eventAction" 	: "go-to-selectDates",
+		"eventLabel" 	: "primary-cta-button",
+		"eventValue" 	: ""
+	},
+	{
+		"selector" 		: "cta-modify-cancel-link",
+		"command" 		: "send",
+		"hitType" 		: "event",
+		"eventCategory"	: "modify-cancel-click",
+		"eventAction" 	: "go-to-modifyCancelPage",
+		"eventLabel" 	: "modify-cancel-link",
+		"eventValue" 	: ""
+	},
+	{
+		"selector" 		: "cta-link",
+		"command" 		: "send",
+		"hitType" 		: "event",
+		"eventCategory"	: "cta-click",
+		"eventAction" 	: "go-to-selectDates",
+		"eventLabel" 	: "text-link-content",
+		"eventValue" 	: ""
+	},
+	{
+		"selector" 		: "bounce-caption",
+		"command" 		: "send",
+		"hitType" 		: "_trackEvent",
+		"eventCategory"	: "clickable-widget",
+		"eventAction" 	: "arrow-down",
+		"eventLabel" 	: "bounce-arrow",
+		"eventValue" 	: ""
+	},
+	{
+		"selector" 		: "bounce-arrow",
+		"command" 		: "send",
+		"hitType" 		: "_trackEvent",
+		"eventCategory"	: "clickable-widget",
+		"eventAction" 	: "arrow-down",
+		"eventLabel" 	: "bounce-arrow",
+		"eventValue" 	: ""
+	}
+]

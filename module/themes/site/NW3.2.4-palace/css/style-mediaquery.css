@@ -1,0 +1,86 @@
+/********************************************************************/
+/* RESPONSIVE MEDIA QUERY 											*/
+/********************************************************************/
+/* LARGE DESKTOP */
+@media (min-width: 1367px) {
+	.content{width:1100px;}
+	#slider-container{max-width:1960px; margin:0 auto 1em;}	
+}
+	
+/* LARGE DESKTOP */
+@media (max-width:1366px) {
+	.content{width:1100px;}
+}
+
+/* NORMAL DESKTOP */
+@media(max-width:1199px) {
+	.content{width:960px;}
+	.bpgtip{left:0;}
+	#bpgtipcontent{top:200%; left:-15px; height:auto; min-width:200px; font-size:12px;}
+	#bpgtipcontent:after{top:-24px; border-color: transparent transparent #E0C48F transparent; }
+	#bpgmodal h2{font-size:1.231em;}
+	.flex-direction-nav a{top:65%;}
+}
+
+/* TABLET AND PHONES */
+@media (max-width: 979px) {
+	body{font-size:12px;}
+	.large, h1{font-size:1.333em;}	
+	.medium, h2{font-size:1.167em; margin-bottom:0.5em;}
+	.normal, h3 {font-size:1.083em; margin-bottom:0.5em;}			
+	.normal, h4, h5, h6{font-size:1em;}					
+	
+	.content{width:718px;}
+	#header-container .content{width:auto;}
+		
+	#header{height:auto; position:relative;}
+		#header-container{display:block; position:relative;}
+			#logo-container{background:transparent; padding:0; margin:0 auto; height:auto;}
+				#logo-container .logo{padding:10px 0;}
+			#main-menu-container{background:#111; width:100%; position:relative; bottom:auto; right:auto;}
+				#main-menu{position:relative; text-align:center;}
+
+		#slider-footer{position:absolute; width: auto; top:auto; bottom:1em; left:50px;}
+			#cta-container{display:block; position:relative;}			
+
+	#footer{height:auto;}
+	.flex-direction-nav a{display:none;}
+}
+		
+/* LANDSCAPE PHONE TO PORTRAIT TABLET */
+@media (max-width: 767px) {
+	.content{width:500px;}
+	.image-container{width:300px; margin:0 auto 1em;}
+	.visible-layer{display:none;}
+	.hide-layer{display:block;}
+
+	#footer .content{width:auto;} 
+	#header .content{width:auto; padding:0;}
+
+	#header{position:relative;}
+	
+	#slider-footer{position:relative; bottom:auto; left:auto;}
+		#slider-footer .content{width:auto;}
+			#cta-container{display:block; position:relative; width:100%;}		
+
+	#rmenu{background:#111; color: #ffffff;}
+	#main-menu{background:#A9A596; position:relative; width:100%; margin:0 auto; bottom:0;}
+		#main-menu ul li{display:block; position:relative; text-align:center; margin:0;}
+		   #main-menu .sub-menu{position:relative;}
+			   #main-menu .sub-menu li a{text-align: center;}
+}
+ 
+/* LANDSCAPE PHONES AND DOWN */
+@media (max-width:570px) {
+	.content{width:auto; padding:0;}
+	.image-container{width:auto; margin:0 auto 1em;}
+	#google_translate_element{text-align: left; margin-bottom: 1em;}			
+	#bpg-container { right: 5%; bottom: auto; left:auto; top:10%; z-index:25;}	
+	#bpgmodal h2{font-size:1.231em;}
+	.bpgtip #bpgtipcontent{top:150%; left:0; min-height:140px; width:100%;}
+	#bpgtipcontent:after{border-color:transparent transparent #E0C48F transparent; left:45%; top:-24px;}
+}
+
+/* PORTRAIT PHONES */
+@media (max-width: 480px) {
+}

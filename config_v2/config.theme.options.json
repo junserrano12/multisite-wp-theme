@@ -1,0 +1,44 @@
+[
+	{
+		"option_type" 		: "main-theme-option",
+		"option_group" 		: "onetheme_settings",
+		"page_title" 		: "DWH",
+		"menu_title" 		: "DWH",
+		"capability" 		: "manage_options",
+		"menu_slug" 		: "onetheme-settings",
+		"callable" 			: "onetheme_settings_do_page",
+		"icon"				: "dashicons-admin-generic",
+		"position" 			: 4.9,
+		"config_options"	: {
+								"hide_submenu" : true
+							  }
+	},
+	{
+		"option_type" 		: "sub-theme-option",
+		"option_group" 		: "onetheme_settings",
+        "page_title"    	: "Site Settings",
+        "menu_title"    	: "Site Settings",
+        "capability"    	: "manage_options",
+        "menu_slug"     	: "onetheme-site-options",
+        "callable"      	: "onetheme_site_options_do_page"
+	},
+    {
+        "option_type"       : "sub-theme-option",
+        "option_group"      : "onetheme_settings",
+        "page_title"        : "Hotel Settings",
+        "menu_title"        : "Hotel Settings",
+        "capability"        : "manage_options",
+        "menu_slug"         : "onetheme-hotel-options",
+        "callable"          : "onetheme_hotel_options_do_page"
+    },
+    {
+        "option_type"       : "sub-theme-option",
+        "option_group"      : "onetheme_settings",
+        "page_title"        : "Design Customizer",
+        "menu_title"        : "Design Customizer",
+        "capability"        : "manage_options",
+        "menu_slug"         : "onetheme-customizer-options",
+        "callable"          : "onetheme_customizer_options_do_page"
+    }
+
+]

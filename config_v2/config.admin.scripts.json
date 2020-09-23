@@ -1,0 +1,38 @@
+[
+    {
+        "handle"        : "code-mirror",
+        "src"           : "dwh_get_main_directory_uri()/js/lib/codemirror.js",
+        "in_footer"     : true
+    },
+    {
+        "handle"        : "code-mirror-css",
+        "src"           : "dwh_get_main_directory_uri()/js/lib/codemirror.css.js",
+        "in_footer"     : true
+    },
+    {
+        "handle"        : "code-mirror-folding-code",
+        "src"           : "dwh_get_main_directory_uri()/js/lib/codemirror.foldcode.js",
+        "in_footer"     : true
+    },
+    {
+        "handle"        : "code-mirror-folding-gutter",
+        "src"           : "dwh_get_main_directory_uri()/js/lib/codemirror.foldgutter.js",
+        "in_footer"     : true
+    },
+    {
+        "handle"        : "dwh-ajax",
+        "src"           : "dwh_get_main_directory_uri()/js/v2/ajax-script.js",
+        "in_footer"     : true
+    },
+    {
+        "handle"        : "dwh-script",
+        "src"           : "dwh_get_main_directory_uri()/js/v2/admin-script.js",
+        "deps"          : ["jquery", "media-upload", "thickbox", "jquery-ui-autocomplete", "jquery-ui-draggable", "jquery-ui-droppable"],
+        "in_footer"     : true
+    },
+    {
+        "handle"        : "fontawesome",
+        "src"           : "dwh_get_main_directory_uri()/js/lib/fontawesome-all.min.js",
+        "in_footer"     : true
+    }
+]

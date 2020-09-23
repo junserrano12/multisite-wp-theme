@@ -1,0 +1,18 @@
+[
+	{
+		"id" 			: "dwh-address-widget-container",
+		"fields" 		: [
+								{
+									"id"			: "address_text_layout",
+									"label"			: "Select Layout",
+									"type" 			: "select",
+									"value" 		: "",
+									"default_value" : "inline",
+									"options" 		: [
+														["inline", "inline"],
+														["block", "block"]
+													  ]
+							  	}
+						  ]
+	}
+]

@@ -1,0 +1,22 @@
+.content {
+    display: block;
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+
+    @include breakpoint(md) {
+        width: 940px;
+    }
+
+    @include breakpoint(sm) {
+        width: 720px;
+    }
+
+    @include breakpoint(xs) {
+        width: auto;
+    }
+
+    @include legacy-ie(7 8) {
+        width: 1140px;
+    }
+}

@@ -1,0 +1,99 @@
+.bpglinkcontainer {
+    .bpglinksmall {
+        .bpgcheck {
+            display: inline-block;
+            position: relative;
+            width: $regular;
+            height: $regular;
+            margin-right: 5px;
+            top: 2px;
+        }
+
+        line-height: $regular;
+        font-size: $regular;
+        color: inherit;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .bpgtip {
+        display: inline-block;
+        position: relative;
+        width: $regular;
+        height: $regular;
+        cursor: pointer;
+        top: 2px;
+        margin-left: 4px;
+
+        #bpgtipcontent {
+            display: none;
+            background: lighten($secondarycolor, 40%);
+            font-size: $small;
+            position: absolute;
+            width: 280px;
+            left: $regular;
+            top: -30px;
+            z-index: 10;
+            line-height: 1.5em;
+            color: $black;
+            padding: 6px;
+            @include border-radius(6px);
+            @include box-shadow( 1px 1px 1px 0 rgba($black, 0.5) );
+        }
+
+        &:hover {
+            #bpgtipcontent {
+                display: block !important;
+            }
+        }
+    }
+}
+
+#bpgmodal {
+    background: $white;
+    padding: 22px 0;
+    overflow: auto;
+
+    @include border-radius( 15px );
+
+    .content {
+        max-width: 800px;
+        width: auto;
+        margin: 0 auto;
+
+        .bpgmodal-content {
+            height: 380px;
+            margin: 0;
+            overflow: auto;
+            padding: 0 20px;
+
+            h2 {
+                color: inherit;
+            }
+
+            .cta-bpglink-wrapper {
+                text-align: center;
+                position: relative;
+                display: block;
+
+                .cta-bpglink {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(xs) {
+    .bpglinkcontainer {
+        .bpgtip {
+            #bpgtipcontent {
+                top: 2.5em;
+                left: auto;
+                right: -20px;
+            }
+        }
+    }
+}

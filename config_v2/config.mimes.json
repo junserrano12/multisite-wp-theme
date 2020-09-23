@@ -1,0 +1,38 @@
+[
+	{
+		"type" 		: "svg",
+		"value"		: "image/svg+xml"
+	},
+	{
+		"type" 		: "mp4",
+		"value"		: "video/mp4"
+	},
+	{
+		"type"		: "webm",
+		"value" 	: "video/webm"
+	},
+	{
+		"type" 		: "ico",
+		"value" 	: "image/x-icon"
+	},
+	{
+		"type" 		: "pdf",
+		"value" 	: "application/pdf"
+	},
+	{
+		"type" 		: "css",
+		"value" 	: "text/css"
+	},
+	{
+		"type" 		: "zip",
+		"value" 	: "application/zip"
+	},
+	{
+		"type" 		: "gz",
+		"value" 	: "application/x-gzip"
+	},
+	{
+		"type" 		: "xml",
+		"value" 	: "application/xml"
+	}
+]

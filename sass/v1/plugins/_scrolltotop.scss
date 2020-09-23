@@ -1,0 +1,38 @@
+/*TO TOP*/
+.scroll-to-container{
+	
+	position:fixed; 
+	bottom:60px; 
+	right:10px; 
+	width:51px; 
+	height:51px; 
+	display: none;	
+	.scroll-to {
+		display:block;
+		width: 100%;
+		height: 100%;
+		text-decoration:none; 
+		overflow:hidden; 
+		border:none; 
+		text-indent:100%; 
+		background:url('../images/arrows.png') no-repeat right top transparent; 
+		filter:alpha(opacity=80); 
+		-moz-opacity: 0.8; 
+		opacity: 0.8; 
+		z-index:1000;
+		text-indent:-1000px;
+		
+		&:hover {
+			background-position:right bottom;
+		}
+		
+		&:active,
+		&:focus {
+			outline:none;
+		}
+	}
+}
+
+.wrapper-scrolled .scroll-to-container{
+	display:block;
+}

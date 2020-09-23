@@ -1,0 +1,56 @@
+[
+    {
+        "containers"    : [
+                            {
+                                "id"            : "onetheme-hotel-option-container-0",
+                                "title"         : "General",
+                                "fields"        : [
+                                                    {
+                                                        "id"            : "type",
+                                                        "label"         : "Website Type",
+                                                        "class"         : "hotel-select-type",
+                                                        "type"          : "radio",
+                                                        "value"         : [
+                                                                            ["single", "Single Hotel Website"],
+                                                                            ["corpsite", "Corporate Website (For Group Hotels)"]
+                                                                          ],
+                                                        "default_value" : "single"
+                                                    },
+                                                    {
+                                                        "id"            : "hotel-group",
+                                                        "label"         : "Hotel Details",
+                                                        "type"          : "hotel",
+                                                        "itemlistclass" : "hotel-group hotel-fields hide",
+                                                        "repeater"      : true
+                                                    },
+                                                    {
+                                                        "id"            : "hotel-single",
+                                                        "label"         : "Hotel Details",
+                                                        "type"          : "hotel",
+                                                        "class"         : "hotel-single hotel-fields hide",
+                                                        "default_value" : {
+                                                                            "hotel_id" : "",
+                                                                            "hotel_language" : "en",
+                                                                            "hotel_name" : "",
+                                                                            "hotel_location" : "",
+                                                                            "hotel_subdomain" : ""
+                                                                          }
+                                                    }
+
+                                                  ]
+                            },
+                            {
+                                "id"            : "onetheme-hotel-option-container-1",
+                                "title"         : "Address",
+                                "fields"        : [
+                                                    {
+                                                        "id"            : "address",
+                                                        "label"         : "Hotel Address",
+                                                        "type"          : "address"
+
+                                                    }
+                                                  ]
+                            }
+                          ]
+    }
+]

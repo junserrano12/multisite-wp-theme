@@ -1,0 +1,37 @@
+.teaser-container {
+    .teaser-box {
+        display: block;
+        position: relative;
+
+        .image-container {
+            display: block;
+            position: relative;
+            margin: 0 auto;
+        }
+    }
+
+    .teaser-details {
+        display: block;
+        position: relative;
+        text-align: center;
+
+        .sub-title {
+            font-weight: bold;
+        }
+    }
+
+    .tagline {
+        padding: 1em 0 0;
+        font-weight: bold;
+    }
+
+    .readmore {
+
+    }
+
+    .teaserlink {
+        display: block;
+        position: relative;
+        text-align: right;
+    }
+}

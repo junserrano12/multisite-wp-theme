@@ -1,0 +1,47 @@
+.theme-option-wrapper {
+    form {
+        .theme-option-title-container {
+            position: relative;
+            display: block;
+            height: auto;
+            background: #23282C;
+
+            h1 {
+                font-size: 24px;
+                color: $white;
+                padding: 10px;
+            }
+
+            .error {
+                display: none;
+            }
+        }
+
+        .theme-option-submit-button-container {
+            position: relative;
+            display: block;
+        }
+    }
+}
+
+.theme-option-submit-button-container {
+    .theme-option-notification {
+        background: green;
+        color: $white;
+        border: 1px solid $white;
+        position: fixed;
+        top: 50%;
+        text-align: center;
+        width: 300px;
+        left: 50%;
+        margin-top: -15px;
+        margin-left: -150px;
+        z-index: 100105;
+        p {
+            height: 30px;
+            line-height: 30px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

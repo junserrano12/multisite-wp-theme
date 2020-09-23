@@ -1,0 +1,48 @@
+html, body{background:#fff; display:block; position:relative; font-size:13px; font-family:sans-serif;}
+
+.content{width:1170px; margin:0 auto;}
+
+#header{margin:0 0 1em; padding:1em 0 0;}
+	#header .content{border-radius:10px 10px 0 0; -moz-border-radius:10px 10px 0 0;}
+	#logo-container{text-align:center; position:relative; padding:1.5em 0;}
+
+#main{}
+	#primary{background:#dcdcdc; padding:1em; border-radius:10px 10px 0 0; -moz-border-radius:10px 10px 0 0;}
+
+	.entry-header, .entry-list, .entry-content, .entry-footer{margin-bottom:2em;}
+
+	.entry-header{text-align:center;}
+		.entry-title{margin-bottom:0.5em;}
+		.tagline{font-size:1.234em;}
+
+	.entry-list{display:block; position:relative;}
+
+
+	.row-item{background:#777; display:block; position:relative; width:auto; border:1px solid #252525; color:#fff; padding:10px;}
+	.row-item:after{content:''; display:block; position:relative; clear:both;}
+		.column-left{float:left; width:65%; height:auto;}
+			.slider-container{padding:10px; overflow:hidden;}
+				.list-slider{display:block; position:relative; margin:0;}
+					.list-slider li{list-style:none;}	
+					.image-caption, .image-content{position:absolute; bottom:0;}
+		.column-right{float:right; width:34%; height:auto; z-index:100;}
+			.promo-details-container{margin-bottom:1em;}
+
+	.cta-container{padding:0 5px;}
+	.cta-container .cta{margin:0;}
+	.cta-container .control-wrapper{display:block; position:relative; width:auto; vertical-align:middle; margin:0;}
+	.cta-container .control-wrapper:after{content:''; display:block; position:relative; width:auto; clear:both;}
+		.cta-calendar-wrapper{display:block; text-align: center;}
+			.cta-date-remaining{background:#666; display:inline-block; position:relative; width:auto; padding:5px;}
+				.cta-date-remaining p{font-weight:bold; margin:0;}
+				.cta-date-remaining span{font-weight:bold;}
+			
+			.cta-calendar-container{display:inline-block; position:relative; width:auto;}
+				.calendar-label{display:inline-block; position:relative; text-align:center; min-width:0;}
+				.calendar-input{display:inline-block; position:relative; padding:5px 2px; }
+		
+		.cta-button-container{display:block; width:auto; margin:0 auto; text-align:center;}
+			.ctapromobutton{padding:10px 0; width:98%;}
+			.ctaexpiredbutton{background: #666; color: #fff !important;}
+	
+#footer{text-align:center; padding:15px 0;}
